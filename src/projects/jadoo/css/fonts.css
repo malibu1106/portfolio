@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('../fonts/poppins-bold.woff2') format('woff2'), url('../fonts/poppins-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins-italic';
+  src: url('../fonts/poppins-italic.woff2') format('woff2'), url('../fonts/poppins-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins-regular';
+  src: url('../fonts/poppins-regular.woff2') format('woff2'), url('../fonts/poppins-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'volkhov-bold';
+  src: url('../fonts/volkhov-bold.woff2') format('woff2'), url('../fonts/volkhov-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'volkhov-italic';
+  src: url('../fonts/volkhov-italic.woff2') format('woff2'), url('../fonts/volkhov-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'volkhov-regular';
+  src: url('../fonts/volkhov-regular.woff2') format('woff2'), url('../fonts/volkhov-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open-sans-regular';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open-sans-bold';
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

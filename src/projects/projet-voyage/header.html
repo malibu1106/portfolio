@@ -1,0 +1,50 @@
+<header>
+    <div class="container-header">
+        <div class="logo">
+            <img src="img/logo.svg">
+            <a href="index.php">
+                <h1>Bleu Blanc Bouge</h1>
+            </a>
+        </div>
+
+
+
+        <nav class="menu-grand">
+            <ul>
+                <li><span onclick="showOrHideLoginZone()" id="btn-login">Connexion</span></li>
+                <li><a href="#ancre-voyages">Nos voyages</a></li>
+                <li><a href="#ancre-contact">Contact</a></li>
+                <li id="langage"></li>
+            </ul>
+        </nav>
+
+        <span id="burger-button">☰</span>
+    </div>
+    <nav id="menu-petit" class="menu-petit-cache" style="display: none;">
+        <ul>
+            <li><span onclick="showOrHideLoginZone()" id="btn-login-petit">Connexion</span></li>
+            <li><a href="#ancre-voyages"><span onclick="showOrHideBurgerMenu()">Nos voyages</span></a></li>
+            <li><a href="#ancre-contact"><span onclick="showOrHideBurgerMenu()">Contact</span></a></li>
+
+            <li id="langage-burger"></li><br>
+            <img onclick="showOrHideBurgerMenu()" src="img/cross_black.svg">
+
+        </ul>
+    </nav>
+
+</header>
+<div id="zone-login">
+    <div class="login-form">
+        <form action="#" method="post">
+            <input placeholder="Votre pseudo" type="text" id="pseudologin" name="pseudologin" required>
+            <input placeholder="Mot de passe" type="password" id="password" name="password" required>
+
+            <div id="conteneur-btn-login">
+
+                <img id="seConnecter" src="img/ok_black.svg" onclick="login()">
+                <img id="close-login-logo" onclick="showOrHideLoginZone()" src="img/cross_black.svg">
+            </div>
+        </form>
+
+    </div>
+</div>

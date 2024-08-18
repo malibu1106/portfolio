@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>ColorMemo</title>
+  </head>
+  <body>
+    <h1>
+      <div id="color-memo">
+        <span class="letter">C</span>
+        <span class="letter">o</span>
+        <span class="letter">l</span>
+        <span class="letter">o</span>
+        <span class="letter">r</span>
+        <span class="letter">M</span>
+        <span class="letter">e</span>
+        <span class="letter">m</span>
+        <span class="letter">o</span>
+      </div>
+    </h1>
+    <div id="controls">
+        <div id="difficulty">
+          <button class="difficulty" onClick="modeEasy()">Facile</button>
+          <button class="difficulty" onClick="modeNormal()">Normal</button>
+          <button class="difficulty" onClick="modeHardOrDisplayAll()">Difficile</button>
+        </div>
+        <button id="startGameButton" onclick="startGame()">Démarrer</button>
+      <div id="points">Points : 0</div>
+    </div>
+    <div id="display">
+      <div id="colorList"></div>
+      <div id="userColorList">
+        <button
+          class="button red"
+          onclick="nextUserColorPicker('#c23a3a')"
+        ></button>
+        <button
+          class="button green"
+          onclick="nextUserColorPicker('#3ac243')"
+        ></button>
+        <button
+          class="button yellow"
+          onclick="nextUserColorPicker('#c2ab3a')"
+        ></button>
+        <button
+          class="button blue"
+          onclick="nextUserColorPicker('#3a5ac2')"
+        ></button>
+        <button
+          class="button purple"
+          onclick="nextUserColorPicker('#AC7AA2')"
+        ></button>
+        <button
+          class="button orange"
+          onclick="nextUserColorPicker('#E7782D')"
+        ></button>
+        <button
+          class="button cyan"
+          onclick="nextUserColorPicker('#81c3f0')"
+        ></button>
+        <button
+          class="button magenta"
+          onclick="nextUserColorPicker('#ffb2ff')"
+        ></button>
+      </div>
+    </div>
+    <div id="displayMessage"></div>
+    <div id="displayMemo"></div>
+
+
+
+    <div class="credits">Roberto Studio & Thildma 2024</div>
+  </body>
+</html>

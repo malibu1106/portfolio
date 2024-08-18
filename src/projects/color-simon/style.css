@@ -1,0 +1,302 @@
+:root {
+  --Background: #eae0c8;
+  --AccentColor: #d2d1bf;
+  --TxtColor: #383838;
+  --red: #c23a3a;
+  --green: #61ce68;
+  --yellow: #c2ab3a;
+  --blue: #3a5ac2;
+  --purple: #ac7aa2;
+  --orange: #e7782d;
+  --cyan: #81c3f0;
+  --magenta: #ff99ff;
+}
+
+body {
+  background: var(--Background);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6.25em;
+  margin: 20px auto;
+  color: var(--TxtColor);
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 13.31vh;
+  }
+}
+
+#controls {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+#difficulty {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#difficulty button {
+  height: 40px;
+  width: 100%;
+  border-radius: 15px;
+  border: solid var(--AccentColor) 2px;
+  background: var(--TxtColor);
+  color: var(--Background);
+  font-size: 18px;
+}
+
+#startGameButton {
+  width: 60%;
+  height: 50px;
+  border-radius: 15px;
+  border: solid var(--AccentColor) 2px;
+  background: var(--TxtColor);
+  color: var(--Background);
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+#points {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+  color: var(--TxtColor);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#display {
+  width: 400px;
+  margin: 30px auto;
+}
+
+#colorList {
+  width: 70%;
+  height: 80px;
+  border: solid var(--TxtColor) 1px;
+  margin: auto;
+  border-radius: 20px;
+  background: var(--AccentColor);
+  -webkit-box-shadow: 5px 5px 9px 1px rgba(36, 3, 31, 0.64);
+  box-shadow: 5px 5px 9px 1px rgba(36, 3, 31, 0.64);
+}
+
+#userColorList {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 35px;
+  height: 150px;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  border: solid var(--AccentColor) 2px;
+  border-radius: 12px;
+  -webkit-box-shadow: 5px 5px 9px 1px rgba(36, 3, 31, 0.64);
+  box-shadow: 5px 5px 9px 1px rgba(36, 3, 31, 0.64);
+}
+
+.red,
+.m-c23a3a {
+  background: var(--red);
+}
+
+.green,
+.m-3ac243 {
+  background: var(--green);
+}
+
+.yellow,
+.m-c2ab3a {
+  background: var(--yellow);
+}
+
+.blue,
+.m-3a5ac2 {
+  background: var(--blue);
+}
+
+.purple,
+.m-AC7AA2 {
+  background: var(--purple);
+}
+
+.orange,
+.m-E7782D {
+  background: var(--orange);
+}
+
+.cyan,
+.m-81c3f0 {
+  background: var(--cyan);
+}
+
+.magenta,
+.m-ffb2ff {
+  background: var(--magenta);
+}
+
+p {
+  text-align: center;
+  font-size: 32px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
+
+.button:active {
+  transform: scale(3);
+  opacity: 0.75;
+}
+
+#displayMessage {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  line-height: 37px;
+  /* petite note : en général on met la veleur du line-height à x1.5 du font-size pour l'accessibilité*/
+  color: var(--TxtColor);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+#displayMemo {
+  width: 400px;
+  min-height: 100px;
+  margin: auto;
+  display: flex;
+  gap: 4px;
+}
+
+.memo {
+  width: 40px;
+  height: 40px;
+  border: solid var(--AccentColor) 1px;
+  border-radius: 12px;
+  border: solid white 1px;
+}
+
+.credits {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: var(--TxtColor);
+}
+
+/*Animation titre*/
+
+@keyframes colorChange {
+  0%,
+  100% {
+    color: var(--red);
+    font-size: 120%;
+    letter-spacing: -15px;
+  }
+
+  12.5%,
+  25% {
+    color: var(--yellow);
+  }
+
+  25%,
+  37.5% {
+    color: var(--green);
+  }
+
+  37.5%,
+  50% {
+    color: var(--blue);
+  }
+
+  50%,
+  62.5% {
+    color: var(--purple);
+  }
+
+  62.5%,
+  75% {
+    color: var(--orange);
+  }
+
+  75%,
+  87.5% {
+    color: var(--cyan);
+  }
+
+  87.5%,
+  100% {
+    color: var(--magenta);
+  }
+}
+
+.letter {
+  animation: colorChange 2.5s;
+  animation-delay: calc(0.25s * var(--i));
+  animation-timing-function: steps(1);
+  line-height: 0px;
+}
+
+#color-memo {
+  --i: 0;
+  letter-spacing: -15px;
+  /* tips de Design UI: ça fait chic un letter-spacing négatif sur les titres*/
+}
+
+#color-memo .letter:nth-child(2) {
+  --i: 1;
+}
+
+#color-memo .letter:nth-child(3) {
+  --i: 2;
+}
+
+#color-memo .letter:nth-child(4) {
+  --i: 3;
+}
+
+#color-memo .letter:nth-child(5) {
+  --i: 4;
+}
+
+#color-memo .letter:nth-child(6) {
+  --i: 5;
+}
+
+#color-memo .letter:nth-child(7) {
+  --i: 6;
+}
+
+#color-memo .letter:nth-child(8) {
+  --i: 7;
+}
+
+#color-memo .letter:nth-child(9) {
+  --i: 8;
+}

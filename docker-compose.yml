@@ -1,0 +1,37 @@
+services:
+    php:
+        image: php:8.3-apache
+        container_name: infinitea_php8_3
+        ports:
+            - "8010:80" # on définit le port pour accéder à l'application sur la première valeur (localhost:8000 si on a 8000:80)
+        volumes:
+            - ./src:/var/www/html # on monte le dossier courant dans le dossier /var/www/html du container
+        build:
+            context: .
+            dockerfile: Dockerfile
+
+    db:
+        image: mysql:8.0
+        container_name: infinitea_mysql8_0
+        command: --default-authentication-plugin=mysql_native_password
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: infinitea # nom de la base de données
+            MYSQL_USER: infinitea
+            MYSQL_PASSWORD: infinitea_password
+        volumes:
+            - "./data:/docker-entrypoint-initdb.d" # création de la table et insertion des données à partir du fichier .sql situé dans le dossier data
+        ports:
+            - "3366:3306"
+
+    phpma:
+        image: phpmyadmin/phpmyadmin
+        container_name: infinitea_phpmyadmin # nom du container phpmyadmin pour le retrouver plus facilement
+        environment:
+            PMA_ARBITRARY: 1
+            PMA_HOST: db
+            PMA_USER: root
+            PMA_PASSWORD: root
+            UPLOAD_LIMIT: 20M
+        ports:
+            - "8090:80" # on définit le port pour accéder à phpmyadmin (localhost:8080)

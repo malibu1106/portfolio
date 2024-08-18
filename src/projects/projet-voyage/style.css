@@ -1,0 +1,1604 @@
+/* RESET CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+#ancre-voyages,
+#ancre-contact,
+#évadez {
+  scroll-margin-top: 100px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/*DISABLE ANIMATIONS > ENABLE WITH CLASS TOGGLE */
+body.preload .menu-petit-cache {
+  animation-duration: 0s !important;
+  -webkit-animation-duration: 0s !important;
+  transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+}
+
+body {
+  background-image: url("img/body.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background-video {
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+
+.cut-blanc {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+
+
+
+/* COLORS */
+.red {
+  color: red;
+}
+
+/* WEIGHT */
+.bold {
+  font-weight: 700;
+}
+
+.semibold {
+  font-weight: 550;
+}
+
+.prix {
+  font-size: 120%;
+}
+
+
+/* CSS PHONE */
+
+section {
+  width: 100%;
+}
+
+
+.cut-transp {
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titre-section {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3.1em;
+  line-height: 1.5em;
+}
+
+.texte-section {
+  color: white;
+  font-size: 1.2em;
+  line-height: 1em;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+/* ZONE LOGIN */
+
+#zone-login {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  background: rgba(232, 230, 230, 0.5);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 100px;
+  z-index: 100;
+  display: none;
+}
+
+.login-form {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  font-family: 'Lato';
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 150;
+}
+
+.login-form input {
+  width: 100%;
+  height: 40px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background: white;
+  z-index: 200;
+}
+
+.login-form input:hover {
+  scale: 1.05;
+  transition: 0.2s;
+  box-shadow: 1px 1px 2px 1px #658214;
+}
+
+#btn-login,
+#btn-login-petit,
+#zone-login img {
+  cursor: pointer;
+}
+
+#conteneur-btn-login {
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#zone-login img {
+  width: 40px;
+  margin: auto;
+  z-index: 500;
+}
+
+/* ZONE PRO */
+#zone-pro {
+  width: 95%;
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: rgba(235, 233, 233, 1);
+  font-family: 'Lato';
+}
+
+
+#zone-pro-promo {
+  display: none;
+}
+
+
+#zone-pro form {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  text-align: center;
+  color: black;
+  margin: 10px auto;
+}
+
+#zone-pro form input,
+#zone-pro form select,
+#zone-pro form textarea {
+  width: 95%;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 10px;
+  border: solid black 1px;
+  background: white;
+  color: black;
+}
+
+#zone-pro .inputpetit {
+  width: 70px;
+  height: 35px;
+}
+
+#zone-pro .inputmoyen {
+  width: 300px;
+  height: 40px;
+}
+
+#zone-pro .inputgrand {
+  height: 80px;
+}
+
+#zone-pro .inputpara {
+  width: 400px;
+  height: 150px;
+}
+
+.zone-pro-add-voyage-bloc-para {
+  display: none;
+}
+
+.ajouterPara,
+.retirerPara {
+  width: 200px;
+  height: 25px;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid black 1px;
+  color: white;
+  font-weight: 600;
+
+}
+
+.ajouterPara {
+  background: green;
+}
+
+.retirerPara {
+  background: red;
+}
+
+.ajouterPara:hover,
+.retirerPara:hover {
+  scale: 1.05;
+}
+
+#zone-pro form input:hover {
+  scale: 1.05;
+  transition: 0.2s;
+  box-shadow: 1px 1px 2px 1px #658214;
+}
+
+#zone-pro input[type=checkbox] {
+  width: unset;
+}
+
+
+#btn-zone-pro,
+#zone-pro img,
+#zone-pro button {
+  cursor: pointer;
+}
+
+#zone-pro button {
+  margin-bottom: 15px;
+}
+
+
+#zone-pro img {
+  width: 50px;
+  margin: 10px auto;
+}
+
+#zone-pro h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+
+/*ACCUEIL Max480px */
+.accueil {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  border-top: solid 1px rgb(59, 57, 57);
+  position: relative;
+}
+
+#background-video {
+  height: 100vh;
+}
+
+.accueil h1 {
+  font-size: 2.6em;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 80%;
+  margin: 35vh auto 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#recherche-voyage-mobile {
+  font-family: "Lato";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3vh;
+  margin: auto;
+  background: rgba(235, 233, 233, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.accueil .recherche-voyage-mobile-fermee {
+  transition: 0.2s;
+  height: 80px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 1.2em;
+  cursor: pointer;
+  max-width: 400px;
+}
+
+.accueil .recherche-voyage-mobile-ouverte {
+  transition: 0.2s;
+  height: 270px;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto 50px;
+  background: rgba(235, 233, 233, 0.8);
+  border-radius: 10px;
+  font-size: 1.2em;
+  display: block;
+}
+
+.recherche-voyage-mobile-ouverte select {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  max-width: 450px;
+}
+
+.researchOption {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.accueil .recherche-voyage-mobile-ouverte .conteneur-select-mobile {
+  font-size: 1.3em;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.accueil .recherche-voyage-mobile-ouverte .conteneur-select-mobile select {
+  font-size: 1.1em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.accueil .recherche-voyage-mobile-ouverte .conteneur-select-mobile label {
+  padding: 10px;
+}
+
+#search-mobile-icon {
+  width: 40px;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+#close-icon {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  margin: 15px auto 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#close-icon img {
+  width: 40px;
+  cursor: pointer;
+}
+
+
+
+.accueil #recherche-cachee {
+  display: none;
+  flex-wrap: wrap;
+  animation: open-mobile-search 0.5s;
+}
+
+
+
+#trouver-mon-voyage {
+  color: black;
+  font-size: 1.2em;
+}
+
+/*SECTION PROMOS*/
+.section-promos {
+  font-family: "Open Sans";
+  background: white;
+
+}
+
+.section-promos article {
+  position: relative;
+}
+
+.conteneur-promo {
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  background: rgba(235, 233, 233, 0.5);
+
+  border-radius: 10px;
+}
+
+article.promo {
+  box-sizing: content-box;
+  width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 8px;
+  border: solid white 1px;
+  display: flex;
+}
+
+article.promo::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -22px;
+  right: -12px;
+  background: url("img/voyages/promos/percent.png");
+  background-size: cover;
+}
+
+
+.conteneur-promo>a:nth-child(even) figure {
+  flex-direction: row-reverse;
+}
+
+.conteneur-promo>a:nth-child(even) figure img {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.conteneur-promo>a:nth-child(even) .pourcent-promo {
+  right: -182px;
+}
+
+
+
+.section-promos figure {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+
+}
+
+.section-promos figure img {
+  border-radius: 8px 0px 0px 8px;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.section-promos figcaption {
+  width: 75%;
+  position: relative;
+}
+
+.titre-promo,
+.sous-titre-promo,
+.conteneur-duree-prix {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.titre-promo {
+  top: 20%;
+  font-size: 1.4em;
+  font-family: "Roboto";
+  color: #658214;
+}
+
+.sous-titre-promo {
+  top: 50%;
+  font-size: 1em;
+  font-family: "Poppins";
+
+}
+
+.conteneur-duree-prix {
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  padding: 5px;
+  font-size: 1.15em;
+  font-family: "Poppins";
+}
+
+.duree-promo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+figure .duree-promo img {
+  height: 1em;
+  width: 1em;
+
+}
+
+figure .pourcent-promo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 1.35em;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+
+
+/* SECTIONS REGIONS */
+#section-regions {
+  background: white;
+}
+
+
+#background-regions {
+  background: url("img/regions/auvergne.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  max-width: calc(1.77*80vh);
+  transition: 1s;
+  position: relative;
+  height: 80vh;
+  width: 95vw;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#section-regions button {
+  position: absolute;
+  font-size: 50px;
+  width: 10%;
+  height: 46vh;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clickableRegion {
+  height: 46vh;
+  width: 80%;
+  left: 0;
+  top: 8vh;
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+}
+
+#section-regions button:nth-of-type(2) {
+  right: 0;
+}
+
+#btn-region-france button:last-child {
+  right: 0;
+}
+
+
+.prez-region {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5%, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.8) 65%, rgba(0, 0, 0, 1) 100%);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  height: 28vh;
+}
+
+.prez-region img {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  opacity: 0.85;
+  height: 80%;
+}
+
+.conteneur-infos-region {
+  width: 80%;
+}
+
+#section-regions h3,
+p {
+  color: white;
+}
+
+#section-regions h3 {
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0) 5%, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.8) 65%, rgba(0, 0, 0, 1) 100%);
+  font-size: 1.8em;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-family: "Roboto";
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  line-height: 8vh;
+}
+
+#section-regions p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+  text-align: left;
+  padding: 3px;
+  font-family: "Poppins";
+  width: 50%;
+  position: absolute;
+  bottom: 9vh;
+  right: 0;
+  text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+}
+
+
+/* ENVIES */
+.section-voyages {
+  background: white;
+  padding: 25px 0px;
+  height: auto;
+}
+
+.section-voyages h3 {
+  font-size: 2.3em;
+  color: #658214;
+  text-align: center;
+  margin: 5px auto;
+  font-family: "Lato";
+}
+
+.conteneur-voyages {
+  display: flex;
+  width: 95%;
+  border-radius: 10px;
+  background: rgba(235, 233, 233, 0.5);
+  padding-bottom: 3vh;
+  flex-direction: column;
+  margin: auto;
+}
+
+.type-voyage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  font-family: "Questrial";
+}
+
+hr {
+  margin: 10px;
+}
+
+.voyage {
+  width: 400px;
+  height: 100px;
+  margin: 10px auto;
+  background: white;
+  display: flex;
+  border-radius: 10px;
+}
+
+.voyage:hover {
+  scale: 1.05;
+  transition: 0.2s;
+}
+
+.voyage img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+
+.type-voyage .voyage:nth-child(odd) img {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.type-voyage .voyage:nth-child(even) img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+
+.type-voyage .voyage:nth-child(odd) {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.conteneur-titre-voyage {
+  text-align: center;
+  margin: 10px auto;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+
+}
+
+.conteneur-titre-voyage h4 {
+  font-size: 1.65em;
+  color: #91a931;
+}
+
+.conteneur-titre-voyage h5 {
+  font-size: 1.10em;
+  line-height: 1em;
+  color: black;
+  font-family: "Poppins";
+}
+
+
+
+/* SECTION DETAIL D'UN VOYAGE*/
+.voyage-details {
+  width: 95%;
+  margin: auto;
+  /* background: rgba(235, 233, 233, 0.5); */
+
+}
+
+/*--------DETAIL_VOYAGE-------*/
+
+section.detail-voyage {
+  position: relative;
+  width: 95%;
+  max-width: 1500px;
+  margin: 40px auto;
+  background: white;
+  text-align: center;
+  padding: 30px 5px;
+  border-radius: 10px;
+}
+
+
+.conteneur-detail-voyage {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section.detail-voyage h2 {
+  font-size: 2.2em;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #658214;
+  margin: 0 auto 10px;
+}
+
+section.detail-voyage h3 {
+  font-size: 1.9em;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: black;
+  margin: 0 auto 20px;
+}
+
+section.detail-voyage h5 {
+  font-size: 1em;
+  font-family: 'Lato';
+  font-weight: 600;
+  color: black;
+  margin-left: 15px;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.conteneur-detail-voyage-reservation-infos button {
+  background-color: #658214 !important;
+  padding: 15px 30px !important;
+}
+
+.conteneur-detail-voyage-reservation-infos button:hover {
+  scale: 1.05;
+}
+
+.detail-voyage-lieu-texte,
+.phrase-voyage {
+  text-align: left;
+  margin-left: 22px;
+  font-family: 'Lato';
+}
+
+.conteneur-detail-voyage p {
+  padding: 5px;
+  color: #658214;
+}
+
+.conteneur-detail-voyage-texte {
+  margin-top: 32px;
+}
+
+.conteneur-detail-voyage img {
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+
+.conteneur-detail-voyage-reservation-image,
+.conteneur-detail-voyage-avantages-infos {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.detail-voyage-avantage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.voyage-titre-avantage {
+  width: 60%;
+  font-family: 'Lato';
+
+  font-size: 1.4em;
+}
+
+.detail-voyage-avantage img {
+  width: 70px;
+
+}
+
+
+.conteneur-detail-voyage-reservation-infos {
+  font-family: 'Lato';
+}
+
+.conteneur-detail-voyage-reservation-infos button {
+  background: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.conteneur-detail-voyage-reservation-infos select {
+  max-width: 120px;
+}
+
+.prix-reservation-voyage {
+  position: absolute;
+  bottom: 35px;
+  right: 4%;
+  font-size: 2.1em;
+  font-weight: 600;
+}
+
+.conteneur-detail-voyage-texte h4 {
+  font-size: 1.5em;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: black;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+
+
+
+/* CSS AVIS */
+
+.section-avis {
+  width: 100%;
+  background: white;
+  padding: 50px 0px;
+}
+
+.conteneur-avis {
+  width: 95%;
+  max-width: 1600px;
+  background: rgba(235, 233, 233, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+
+article.avis {
+  width: 450px;
+  height: 180px;
+  margin: 10px 10px;
+  box-sizing: content-box;
+  background: white;
+  border-radius: 10px;
+}
+
+.avis figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avis figcaption {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.avis figcaption .titre-avis,
+.texte-avis {
+
+  font-family: "Questrial";
+}
+
+.avis figcaption .titre-avis {
+  font-size: 1.5em;
+  color: rgb(92, 91, 91);
+
+  font-weight: 800;
+  padding: 5px;
+}
+
+.avis figcaption .texte-avis {
+  font-size: 1em;
+  line-height: 1em;
+  padding: 10px;
+  position: absolute;
+  color: lightslategray;
+  left: 0;
+  right: 0;
+  top: 30px;
+  font-weight: 400;
+}
+
+.avis .note-avis {
+  position: absolute;
+  width: 125px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+}
+
+.avis .nom-avis {
+  position: absolute;
+  font-family: "Roboto";
+  bottom: 35px;
+  font-style: italic;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+article.avis img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+article.avis .note-avis img {
+  width: 25px;
+}
+
+/* CONTACT */
+section.contact {
+  background: white;
+  padding: 50px 0px;
+}
+
+.conteneur-contact {
+  width: 95%;
+  max-width: 900px;
+  background: rgba(235, 233, 233, 0.5);
+  padding: 50px;
+  font-family: "Roboto";
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteneur-contact-gauche {
+  width: 100%;
+  display: flex;
+}
+
+.conteneur-contact-gauche form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+
+.conteneur-contact-gauche form input,
+textarea,
+select {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background: white;
+}
+
+.conteneur-contact-gauche form input:hover,
+textarea:hover,
+select:hover {
+  scale: 1.05;
+  transition: 0.2s;
+  box-shadow: 1px 1px 2px 1px #658214;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+.conteneur-contact-gauche form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.form-gauche,
+.form-droite {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-droite {
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.form-gauche {
+  justify-content: space-between;
+}
+
+.conteneur-contact-droite {
+  width: 100%;
+  padding: 20px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.conteneur-contact-droite p {
+  color: #658214;
+  padding: 10px;
+}
+
+.conteneur-contact-droite .type-contact {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.conteneur-contact-droite .infos-contact {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+
+/*HEADER*/
+
+header {
+  background: linear-gradient(360deg, rgba(232, 230, 230, 0.9) 0%, rgba(232, 230, 230, 1) 100%);
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  color: rgb(59, 57, 57);
+  top: 0;
+  z-index: 1;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.container-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5%;
+
+}
+
+#langage,
+#langage-burger {
+  width: 24px;
+  height: 16px;
+  background: url("img/france-flag.svg");
+  background-size: cover;
+  border: solid black 1px;
+  margin: auto;
+  cursor: pointer;
+}
+
+#langage-burger {
+  margin: 5px auto 0;
+}
+
+
+#menu-petit {
+  background: linear-gradient(360deg, rgba(232, 230, 230, 0.7) 0%, rgba(232, 230, 230, 0.9) 100%);
+  padding: 16px;
+  display: none;
+}
+
+.menu-petit-cache {
+  opacity: 0;
+  animation: animation-menu-petit-cache 0.35s linear;
+}
+
+
+.menu-petit-visible {
+  animation: animation-menu-petit-visible 0.35s linear;
+}
+
+#menu-petit img {
+  width: 40px;
+  margin: -25px auto 0px;
+  cursor: pointer;
+}
+
+
+#burger-button {
+  display: none;
+  cursor: pointer;
+  transition-duration: 1s;
+  font-size: 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Pacifico";
+}
+
+.logo img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.logo img:hover {
+  animation: logo-animation 0.5s ease-in;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+}
+
+
+/*MAIN */
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: white;
+  font-family: "Questrial";
+}
+
+#conteneur-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-footer {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 800px;
+  margin: auto;
+}
+
+#logo-footer img {
+  width: 60px;
+  cursor: pointer;
+}
+
+#logo-footer img:hover {
+  scale: 1.1;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+#facebook:hover {
+  background: #5d9eed;
+}
+
+#twitter:hover {
+  background: #00b1f4;
+}
+
+#youtube:hover {
+  background: #fe2a1e;
+}
+
+#pinterest:hover {
+  background: #d10a0f;
+}
+
+#instagram:hover {
+  background: #d432bc;
+}
+
+#vimeo:hover {
+  background: #0db3ed;
+}
+
+.article-footer {
+  text-align: center;
+  font-size: 2em;
+  padding: 25px 0px;
+  cursor: pointer;
+}
+
+
+
+/* TABLET et + */
+/* TABLET et + */
+/* TABLET et + */
+/* TABLET et + */
+
+
+
+
+/* CSS TABLET */
+
+@media only screen and (max-width: 768px) {
+
+  .menu-grand {
+    display: none;
+  }
+
+  #burger-button {
+    display: block;
+  }
+
+  #menu-petit ul {
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: "Roboto";
+  }
+}
+
+
+/* + CSS + 768px */
+/* REHIDE MENU SI OUVERT ET RESIZE DE LA PAGE */
+@media only screen and (min-width: 768px) {
+  #menu-petit {
+    height: 0px;
+    visibility: hidden;
+  }
+
+  /*PROMOS*/
+  header {
+    background: rgba(235, 233, 233, 0.4);
+    backdrop-filter: blur(10px);
+  }
+
+  #recherche-voyage-mobile {
+
+    background: rgba(235, 233, 233, 0.4);
+
+  }
+
+
+  .conteneur-promo {
+
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  article.promo {
+    width: 500px;
+    margin: 10px 5px;
+  }
+
+
+  /* VOYAGES */
+  .conteneur-voyages {
+    width: 95%;
+    max-width: 1200px;
+    padding: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .type-voyage {
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .prix-reservation-voyage {
+    right: 8%;
+  }
+
+
+  /* CONTACT */
+
+  .conteneur-contact-gauche form {
+    flex-direction: row;
+  }
+
+  .form-droite {
+    margin-top: 0;
+  }
+
+  .form-gauche,
+  .form-droite {
+    width: 40%;
+  }
+
+  /* REGIONS */
+
+  #section-regions p {
+    right: 8%;
+    line-height: 1.1em;
+    font-size: 1.25em;
+
+  }
+
+  .prez-region img {
+    left: 5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .accueil h1 {
+    font-size: 3.6em;
+    width: 95%;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+
+
+  #conteneur-footer {
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  /*PROMO*/
+  .conteneur-promo {
+    max-width: 1200px;
+  }
+
+
+  /*REGION*/
+
+  #section-regions p {
+    right: 8%;
+    line-height: 1.18em;
+    font-size: 1.3em;
+
+  }
+
+  .prez-region img {
+    left: 10%;
+    height: 100%;
+  }
+
+
+
+
+
+  .conteneur-detail-voyage-prez {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .conteneur-detail-voyage-prez-img {
+    width: 49%;
+    display: flex;
+    align-items: center;
+  }
+
+  .conteneur-detail-voyage-prez-img img {
+    width: 100%;
+    min-height: 70%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .conteneur-detail-voyage-prez-infos {
+    background: rgba(235, 233, 233, 0.5);
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px 15px 25px 10px;
+  }
+
+  .conteneur-detail-voyage-texte {
+    margin-top: 50px;
+  }
+
+  .conteneur-detail-voyage-texte h4 {
+    text-align: left;
+    margin-left: 22px;
+  }
+
+  .conteneur-detail-voyage-reservation {
+    display: flex;
+  }
+
+  .conteneur-detail-voyage-reservation-image,
+  .conteneur-detail-voyage-avantages-infos {
+    width: 50%;
+  }
+
+  .prix-reservation-voyage {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    font-size: 2.6em;
+    font-weight: 600;
+  }
+
+
+}
+
+
+
+/*ANIMS*/
+/*ANIMS*/
+/*ANIMS*/
+/*ANIMS*/
+
+
+@keyframes animation-menu-petit-visible {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  90% {
+    transform: translateY(3px);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes animation-menu-petit-cache {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+
+  40% {
+    transform: translateY(3px);
+
+  }
+
+  55% {}
+
+
+  100% {
+    transform: translateY(-30px);
+    opacity: 0;
+
+  }
+}
+
+@keyframes open-mobile-search {
+  0% {
+    opacity: 0;
+
+  }
+
+  30% {
+    opacity: 0;
+
+  }
+
+  100% {
+    opacity: 1;
+
+  }
+}
+
+@keyframes logo-animation {
+  20% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

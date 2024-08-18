@@ -1,0 +1,17 @@
+#1 Vérifier reset des paddings/margins + border-box, check les ::after/::before 
+DONE
+#2 Régler le problème de plan sur animation maki rose
+DONE
+#3 Soulignement rose à mettre sur le titre !!!
+DONE
+
+###########################################
+#4 GROS REFRESH DU CSS AVANT RESPONSIVE ###
+###########################################
+DONE QUICKLY :D
+
+#5 Fixer histoire de p / a dans les liens applestore/playstore > button
+DONE
+#6 Revoir structure FOOTER
+DONE
+#7 REGLER PROBLEME LARGEUR 640px

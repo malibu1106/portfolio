@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <title>Restaurant Jadoo</title>
+</head>
+<body>
+    <header>
+        <div id="haut_header">
+            <div id="logo">
+                <img class="logoJadoo animationRotate" alt="Logo du site Jadoo" src="img/logo_jadoo_1.svg">
+                <img class="logoJadoo2" alt="Logo du site Jadoo" src="img/logo_jadoo_2.svg">
+            </div>
+            <nav class="menu_principal">
+                <ul>
+                    <li class="bouton_menu"><a href="#section2">Les nouveautés</a></li>
+                    <li class="bouton_menu"><a href="#ancre-decouvrir">Découvrir</a></li>
+                    <li class="bouton_menu"><a href="#ancre-commande">Commander</a></li>
+                    <li class="bouton_menu"><a href="#ancre-formulaire">Contactez-nous</a></li>                    
+                </ul>
+                <img id="icone_menu_burger" src="img/burger_icon.svg" alt="Icone Menu" onClick="menu()">            
+            </nav>
+            
+        </div>
+        <nav id="menu_mobile">            
+            <ul>
+                <a href="#section2" onClick="menu()"><li class="bouton_menu_mobile">Les nouveautés</li></a>
+                <a href="#ancre-decouvrir" onClick="menu()"><li class="bouton_menu_mobile">Découvrir</li></a>
+                <a href="#ancre-commande" onClick="menu()"><li class="bouton_menu_mobile">Commander</li></a>
+                <a href="#ancre-formulaire" onClick="menu()"><li class="bouton_menu_mobile">Contactez-nous</li></a>                    
+            </ul> 
+        </nav>
+    </header>
+    <section id="section1">
+        <article>
+            <h3 class="texte_orange texte_poppins_bold uppercase">Un voyage culinaire gourmet et gourmand.</h2>
+                <h1 class="texte_blanc texte_volkhov_bold">Bienvenue<br> au restaurant<br>Jadoo</h1>
+                <h5 class="texte_gris_1 texte_poppins_regular">Jadoo vous accueille dans son ambiance zen et épurée,idéale pour découvrir ou redécouvrir la cuisine gastronomique du Chef Junichi IIDA.</h5>
+                <button class="yellowButton">Découvrir la carte</button>
+        </article>
+    </section>
+    <section id="section2">
+        <div id="conteneur_titres">
+            <h4 class="texte_gris_4 texte_poppins_regular">Découvrez</h4>
+            <h2 class="texte_violet texte_volkhov_bold">Les nouveautés Jadoo</h2>
+        </div>
+        <div id="carte-ligne-1">
+            <article class="carte">
+                <figure class="nouveautes_plat">
+                    <img class="nouveautes_img" src="img/plat_1.png" alt="Boulettes de poulet">
+                    <figcaption class="texte_gris_4 texte_poppins_regular">Boulettes de poulet au gingembre sauce sucrée salée "Tsukiné"</figcaption>
+                </figure>
+            </article>
+            <article class="carte">
+                <figure class="nouveautes_plat">
+                    <img class="nouveautes_img" src="img/plat_2.png" alt="Nouilles japonaises">
+                    <figcaption class="texte_gris_4 texte_poppins_regular">Nouilles japonaises chaudes à base de farine de blé "Udon"</figcaption>
+                </figure>
+            </article>
+            <article class="carte">
+                <figure class="nouveautes_plat">
+                    <img class="nouveautes_img" src="img/plat_3.png" alt="Échine de porc">
+                    <figcaption class="texte_gris_4 texte_poppins_regular">Échine de porc panée à la japonaise "Tonkatsu-Teishoku"</figcaption>
+                </figure>
+            </article>
+        </div>
+        <div id="carte-ligne-2">
+            <article class="carte">
+                <figure class="nouveautes_maki">
+                    <img class="nouveautes_img" src="img/maki_1.png" alt="California Tobiko">
+                    <figcaption>
+                        <p class="titre_maki texte_bleu texte_opensans_regular">California Tobiko</p>
+                        <p class="description_maki texte_gris_4 texte_poppins_regular">Saumon, thon, mayonnaise</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="carte">
+                <figure class="nouveautes_maki">
+                    <img class="nouveautes_img" src="img/maki_2.png" alt="California Rolls">
+                    <figcaption>
+                        <p class="titre_maki texte_bleu texte_opensans_regular">California Rolls</p>
+                        <p class="description_maki texte_gris_4 texte_poppins_regular">Saumon, avocat et mayonnaise</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="carte">
+                <figure class="nouveautes_maki">
+                    <img class="nouveautes_img" src="img/maki_3.png" alt="Ebi">
+                    <figcaption>
+                        <p class="titre_maki texte_bleu texte_opensans_regular">Ebi</p>
+                        <p class="description_maki texte_gris_4 texte_poppins_regular">Crevette, avocat, menthe, coriandre</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="carte">
+                <figure class="nouveautes_maki">
+                    <img class="nouveautes_img" src="img/maki_4.png" alt="Ikura Rolls">
+                    <figcaption>
+                        <p class="titre_maki texte_bleu texte_opensans_regular">Ikura Rolls</p>
+                        <p class="description_maki texte_gris_4 texte_poppins_regular">Oeufs de saumon<br><br></p>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
+        <button class="yellowButton">Découvrir la carte</button>
+    </section>
+    <section id="section3">
+        <article>
+            <div id="conteneur_video">
+                <img id="bouton_lecture" alt="Lire la vidéo" src="img/button_play.svg">
+            </div>
+            <h1 id="ancre-decouvrir" class="texte_blanc texte_volkhov_bold">Un voyage gastronomique entre le Japon et la France</h1>
+            <h5 class="texte_blanc texte_poppins_regular">Passé par des maisons étoilées en France, le cuisinier japonais s'est forgé une solide expérience dans l'Hexagone : aujourd'hui franc-comtois d'adoption, il maîtrise aujourd'hui les mélanges de cultures et de saveurs chaque jour au sein de son restaurant gastronomique.</h5>
+        </article>
+        <div id="double_illustration">
+        <img class="illustrations_section3" src="img/wrapper_illustration_1.jpg" alt="Repas">
+        <img class="illustrations_section3" src="img/wrapper_illustration_2.jpg" alt="Salle du restaurant">
+        </div>
+    </section>
+    <section id="section4">
+        <h4 id="ancre-commande" class="texte_gris_4 texte_poppins_regular uppercase">Rapide et pratique</h4>
+        <h2 class="texte_violet texte_volkhov_bold"><span class="texte_orange">Commandez</span> sur le site Jadoo</h2>
+        <div id="conteneur-type-commandes">
+            <article class="type-commandes">
+                <figure class="illustrations_commandes">
+                    <a href="#">
+                        <img class="commandes_img image60px animationRotate" src="img/logo_uberEats.png" alt="Uber Eats">
+                        <figcaption>
+                            <p class="titre_commandes texte_poppins_bold texte_sombre">UberEats</p>
+                            <p class="texte-livraison texte_poppins_regular texte_gris_3">Commandez tous vos plats depuis UberEats</p>
+                        </figcaption>
+                    </a>
+                </figure>
+            </article>
+            <article class="type-commandes">
+                <figure class="illustrations_commandes">
+                    <a href="#">
+                        <img class="commandes_img image60px animationRotate" src="img/logo_jadoo_1.svg" alt="Jadoo">
+                        <figcaption>
+                            <p class="titre_commandes texte_poppins_bold texte_sombre">Jadoo.fr</p>
+                            <p class="texte-livraison texte_poppins_regular texte_gris_3">Ou commandez en ligne sur le site officiel de Jadoo</p>
+                        </figcaption>
+                    </a>
+                </figure>
+            </article>
+            <article class="type-commandes">
+                <figure class="illustrations_commandes">
+                    <img class="commandes_img image60px animationScooter" src="img/logo_transport.png" alt="Livraison">
+                    <figcaption>
+                        <p class="titre_commandes texte_poppins_bold texte_sombre">Livraison ultra rapide</p>
+                        <p class="texte-livraison texte_poppins_regular texte_gris_3">Soyez livré en 20 minutes maximum
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
+        <button class="yellowButton">Découvrir la carte</button>
+    </section>
+    <section id="section5">
+        <h4 id="ancre-formulaire" class="texte_gris_4 texte_poppins_regular uppercase">Prendre rendez-vous</h4>
+        <h2 class="texte_violet texte_volkhov_bold">Contactez-nous<br> pour réserver au restaurant</h2>
+        <div id="container_formulaire">
+            <div id="formulaire_gauche">
+                <h4 class="texte_poppins_regular">Formulaire de contact</h4>
+                <h5 class="texte_poppins_regular texte_gris_2">Remplissez le formulaire ci-dessous<br> pour nous contacter</h5>
+                <form>
+                    <div id="champ_formulaire_double">
+                        <div id="champ_formulaire_double_gauche">
+                            <label for="nom" class="texte_poppins_regular">Nom</label><br>
+                            <input type="text" id="name" name="nom" type="text" placeholder="Nom" class="texte_gris_5" required>
+                        </div>
+                        <div id="champ_formulaire_double_droite">
+                            <label for="prenom" class="texte_poppins_regular">Prénom</label><br>
+                            <input type="text" id="prenom" name="prenom" type="text" placeholder="Prénom" class="texte_gris_5" required>
+                        </div>
+                    </div>
+                    <div class="champ_formulaire">
+                        <label for="email" class="texte_poppins_regular">Adresse Email</label><br>
+                        <input id="email" name="email" type="email" placeholder="xxx@gmail.com" class="texte_gris_5" required>
+                    </div>
+                    <div class="champ_formulaire">
+                        <label for="zonedetexte" class="texte_poppins_regular">Message</label><br>
+                        <input type="text" id="message_formulaire_contact" placeholder="Votre message/demande de réservation" class="texte_gris_5" required>
+                    </div>
+                    <div class="champ_formulaire">
+                        <input id="bouton-formulaire" type="submit" value="✔  Envoyer" />
+                    </div>
+                </form>
+            </div>
+            <div id="formulaire_droite">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="conteneur_footer">
+            <article id="footer1">
+                <img class="animationRotate image50px" alt="Logo du site Jadoo" src="img/logo_jadoo_1.svg">
+                <img class="logoJadoo2" height="50px" alt="Logo du site Jadoo" src="img/logo_jadoo_2.svg">
+                <p class="texte_poppins_regular texte_gris_4">Un voyage gastronomique entre le Japon et la France</p>
+            </article>
+            <article id="footer2">
+                <div class="footer2_gauche">
+                    <h4 class="texte_poppins_bold">Restaurant</h4>
+                    <ul class="texte_poppins_regular texte_gris_4">
+                        <li><a href="#">Nouveautés</a></li>
+                        <li><a href="#">Découvrir</a></li>
+                        <li><a href="#">Commander</a></li>
+                    </ul>
+                </div>
+                <div class="footer2_droite">
+                    <h4 class="texte_poppins_bold">Contact</h4>
+                    <ul class="texte_poppins_regular texte_gris_4">
+                        <li><a href="#">Prendre RDV</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article id="footer3">
+                <img height="32px" src="img/logo_uberEats_2.svg" alt="Logo UberEats">
+                <h3 class="texte_poppins_regular texte_gris_4">Téléchargez UberEats</h3>
+                <div id="buttonsFooter">
+                    <button>
+                        <img class="bouton_applications"src="img/logo_google_play.svg" alt="Google Play Store">
+                        <span>GOOGLE PLAY</span>
+                    </button>
+                    <button>
+                        <img class="bouton_applications" src="img/logo_apple.svg" alt="Apple Store">
+                        <span>APPLE STORE</span>
+                    </button>
+                </div>
+            </article>
+        </div>
+        <p class="texte_poppins_regular texte_copyright texte_gris_4">Tous droits réservés @jadoo.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

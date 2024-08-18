@@ -1,0 +1,44 @@
+PB rencontrés : 
+
+    Si deux voyages même région ou même envie :
+    Alors la fonction de calcul du prix en JS marche pas,
+    need la refaire avec des class plutôt que ID, beau bordel en perspective !
+- FIXED !!!
+
+    Les filtres de la recherche en JS ont étés rentrés manuellement, dans le cas de l'ajout
+    d'un voyage, il faudrait aller jusqu'à modifier le script.js et ajuster les objets régions/envies
+    en fonction de l'ajout. Ca s'applique également au cas où on retire un voyage ..
+    Sûrement une meilleure solution obv.
+- AJOUT FIXED, NEED REMOVE SI VOYAGE DELETED
+
+
+DONE : 
+
+    Afficher tous les voyages avec un foreach / catégories
+    Remplir les pages de voyage
+    Ajouter des icones RS dans le footer
+    Enhance CSS for gallery
+    Check toutes les polices/couleurs
+    Remplacer les photos de mauvaise qualité
+
+    Améliorer la pseudo-connexion
+    quelques icones
+
+
+
+TODO :  
+    CLEAN CSS
+    A faire à la maison :
+    Affichage d'une recherche à transfo en foreach aussi, au cas où 2 envies == dans même région, ou l'inverse.
+    NEED REMOVE SEARCH JS SI VOYAGE DELETED
+    
+    
+
+
+
+
+
+    
+
+
+

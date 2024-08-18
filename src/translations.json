@@ -1,0 +1,16 @@
+{
+    "en": {
+        "title_home": "Roberto De Sousa",
+        "description_home": "FullStack Web Developer - Integrator",
+        "bouton_home": "Home",
+        "bouton_profile": "Profile",
+        "bouton_skills": "Skills"
+    },
+    "fr": {
+        "title_home": "Roberto De Sousa",
+        "description_home": "Développeur Web FullStack- Intégrateur",
+        "bouton_home": "Accueil",
+        "bouton_profile": "Profil",
+        "bouton_skills": "Compétences"
+    }
+}
