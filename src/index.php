@@ -114,201 +114,229 @@
     <p data-translate="portfolio_description">Ci-dessous, quelques exemples de réalisations effectuées durant la formation, le stage et plus encore :</p>
     <div class="portfolio_container">
 
-        <article id="jadoo" class="project anchor">
-            <figure>
-            <a href="projects.php?project=jadoo"><figcaption class="project_title">Jadoo</figcaption></a>
-                <img src="projects/jadoo.png">                
-            </figure>
-            <div class="project_details">
-
-                <h3 class="project_links">Liens</h3>
-                <div class="project_links_block">
-                    <div class="project_links_logo local">
-                    </div>
-                    <p><a href="projects.php?project=jadoo">Voir le projet</a></p>
+    <h2 class="project_title">Jadoo</h2>
+    <article id="jadoo" class="project anchor">
+    <div class="figure_links">
+        <figure>
+            <a href="projects.php?project=jadoo">
+                
+            </a>
+            <img src="projects/jadoo.png">
+        </figure>
+        <div class="project_links_container">
+            <div class="project_links_block">
+                <div class="project_links_logo local">
                 </div>
-                <div class="project_links_block">
+                <p><a href="projects.php?project=jadoo">Voir le projet</a></p>
+            </div>
+            <div class="project_links_block">
                 <div class="project_links_logo github">
                 </div>
-                    <p><a href="https://github.com/malibu1106/html-css-jadoo">Voir le github</a></p>
-                </div>
-                <h3 class="project_infos">Langages utilisés</h3>
-                <p>CSS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 50%;"></div>
-                </div>
-                <p>HTML</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 44%;"></div>
-                </div>
-                
-                <p>JS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 6%;"></div>
-                </div>
-                <h3 class="project_infos">Informations</h3>
-                <ul>
-                    <li>Projet de formation</li>
-                    <li>Réalisé depuis une maquette complète</li>
-                    <li>Animations majoritairement en CSS</li>
-                    <li>Menu burger et quelques animations en JS</li>
-                    <li>Responsive</li>
-                </ul>
-
-
+                <p><a href="https://github.com/malibu1106/html-css-jadoo">Voir le github</a></p>
             </div>
-        </article>
+        </div>
+    </div>
+
+    <div class="project_details">
 
 
-        <article id="projet-voyage" class="project anchor">
-            <figure>
-            <a href="projects.php?project=jadoo"><figcaption class="project_title">Bleu Blanc Bouge</figcaption></a>
-            <img src="projects/bleu-blanc-bouge.png">               
-            </figure>
-            <div class="project_details">
+        <h3 class="project_links">Langages utilisés</h3>
+        <p>CSS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 50%;"></div>
+        </div>
+        <p>HTML</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 44%;"></div>
+        </div>
 
-                <h3 class="project_links">Liens</h3>
-                <div class="project_links_block">
-                    <div class="project_links_logo local">
-                    </div>
-                    <p><a href="projects.php?project=projet-voyage">Voir le projet</a></p>
+        <p>JS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 6%;"></div>
+        </div>
+        <h3 class="project_links">Informations</h3>
+        <ul>
+            <li>Projet de formation</li>
+            <li>Réalisé depuis une maquette complète</li>
+            <li>Animations majoritairement en CSS</li>
+            <li>Menu burger et quelques animations en JS</li>
+            <li>Responsive</li>
+        </ul>
+
+
+    </div>
+</article>
+
+<h2 class="project_title">Bleu Blanc Bouge</h2>
+<article id="projet-voyage" class="project anchor">
+    <div class="figure_links">
+        <figure>
+            <a href="projects.php?project=projet-voyage">
+                
+            </a>
+            <img src="projects/bleu-blanc-bouge.png">
+        </figure>
+        <div class="project_links_container">
+            <div class="project_links_block">
+                <div class="project_links_logo local">
                 </div>
-                <div class="project_links_block">
+                <p><a href="projects.php?project=projet-voyage">Voir le projet</a></p>
+            </div>
+            <div class="project_links_block">
                 <div class="project_links_logo github">
                 </div>
-                    <p><a href="https://github.com/malibu1106/projet-voyage-fab-roberto">Voir le github</a></p>
-                </div>
-                <h3 class="project_infos">Langages utilisés</h3>
-                <p>HTML</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 40%;"></div>
-                </div>
-                <p>PHP</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 40%;"></div>
-                </div>
-                <p>CSS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 12%;"></div>
-                </div>
-                <p>JS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 8%;"></div>
-                </div>
-                
-                <h3 class="project_infos">Informations</h3>
-                <ul>
-                    <li>Projet de formation</li>
-                    <li>Réalisation de la maquette & du site</li>
-                    <li>Recherche filtrée en JS</li>
-                    <li>Back-office full PHP</li>
-                    <li>Responsive</li>
-                </ul>
-                <h3 class="project_infos">Collaboration :</h3>
-                <ul>
-                    <li>Aide pour le design : Fabien need link </li>                    
-                </ul>
+                <p><a href="https://github.com/malibu1106/projet-voyage-fab-roberto">Voir le github</a></p>
             </div>
-        </article>
+        </div>
+    </div>
+
+    <div class="project_details">
 
 
-        <article id="infinitea" class="project anchor">
-            <figure>
-            <a href="projects/infinitea/"><figcaption class="project_title">InfiniTea</figcaption></a>
-            <img src="projects/infinitea.png">               
-            </figure>
-            <div class="project_details">
+        <h3 class="project_links">Langages utilisés</h3>
+        <p>HTML</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 40%;"></div>
+        </div>
+        <p>PHP</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 40%;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 12%;"></div>
+        </div>
+        <p>JS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 8%;"></div>
+        </div>
 
-                <h3 class="project_links">Liens</h3>
-                <div class="project_links_block">
-                    <div class="project_links_logo local">
-                    </div>
-                    <p><a href="projects/infinitea/">Voir le projet</a></p>
+        <h3 class="project_links">Informations</h3>
+        <ul>
+            <li>Projet de formation</li>
+            <li>Réalisation de la maquette & du site</li>
+            <li>Recherche filtrée en JS</li>
+            <li>Back-office full PHP</li>
+            <li>Responsive</li>
+        </ul>
+        <h3 class="project_links">Collaboration</h3>
+        <ul>
+            <li>Aide pour le design : Fabien need link </li>
+        </ul>
+    </div>
+</article>
+
+<h2 class="project_title">InfiniTea</h2>
+<article id="infinitea" class="project anchor">
+    <div class="figure_links">
+        <figure>
+            <a href="projects/infinitea/">
+                
+            </a>
+            <img src="projects/infinitea.png">
+        </figure>
+        <div class="project_links_container">
+            <div class="project_links_block">
+                <div class="project_links_logo local">
                 </div>
-                <div class="project_links_block">
+                <p><a href="projects/infinitea/">Voir le projet</a></p>
+            </div>
+            <div class="project_links_block">
                 <div class="project_links_logo github">
                 </div>
-                    <p><a href="https://github.com/malibu1106/InfiniTea">Voir le github</a></p>
-                </div>
-                <h3 class="project_infos">Langages utilisés</h3>
-                <p>PHP - SQL</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 45%;"></div>
-                </div>
-                <p>HTML - Tailwind</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 40%;"></div>
-                </div>
-                <p>JS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 10%;"></div>
-                </div>
-                <p>CSS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 5%;"></div>
-                </div>
-                
-                
-                <h3 class="project_infos">Informations</h3>
-                <ul>
-                    <li>Projet de formation</li>                    
-                    <li>Back-end</li>
-                    <li>Responsive</li>
-                </ul>
-                <h3 class="project_infos">Collaboration :</h3>
-                <ul>
-                    <li>Design et choix images par Mathilde need link</li>
-                    <li>HTML-Tailwind par Mathilde need link</li>                      
-                </ul>
+                <p><a href="https://github.com/malibu1106/InfiniTea">Voir le github</a></p>
             </div>
-        </article>
+        </div>
+    </div>
+
+    <div class="project_details">
 
 
+        <h3 class="project_links">Langages utilisés</h3>
+        <p>PHP - SQL</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 45%;"></div>
+        </div>
+        <p>HTML - Tailwind</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 40%;"></div>
+        </div>
+        <p>JS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 10%;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 5%;"></div>
+        </div>
 
-        <article id="color-simon" class="project anchor">
-            <figure>
-            <a href="projects.php?project=color-simon"><figcaption class="project_title">Color Memo</figcaption></a>
-            <img src="projects/color-simon.png">               
-            </figure>
-            <div class="project_details">
 
-                <h3 class="project_links">Liens</h3>
-                <div class="project_links_block">
-                    <div class="project_links_logo local">
-                    </div>
-                    <p><a href="projects.php?project=color-simon">Voir le projet</a></p>
+        <h3 class="project_links">Informations</h3>
+        <ul>
+            <li>Projet de formation</li>
+            <li>Back-end</li>
+            <li>Responsive</li>
+        </ul>
+        <h3 class="project_links">Collaboration</h3>
+        <ul>
+            <li>Design et choix images par Mathilde need link</li>
+            <li>HTML-Tailwind par Mathilde need link</li>
+        </ul>
+    </div>
+</article>
+
+
+<h2 class="project_title">Color Memo</h2>
+<article id="color-simon" class="project anchor">
+    <div class="figure_links">
+        <figure>
+            <a href="projects.php?project=color-simon">
+            </a>
+            <img src="projects/color-simon.png">
+        </figure>
+        <div class="project_links_container">
+            <div class="project_links_block">
+                <div class="project_links_logo local">
                 </div>
-                <div class="project_links_block">
+                <p><a href="projects.php?project=color-simon">Voir le projet</a></p>
+            </div>
+            <div class="project_links_block">
                 <div class="project_links_logo github">
                 </div>
-                    <p><a href="https://github.com/malibu1106/js-color-simon">Voir le github</a></p>
-                </div>
-                <h3 class="project_infos">Langages utilisés</h3>
-                <p>JS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 60%;"></div>
-                </div>
-                <p>CSS</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 26%;"></div>
-                </div>
-                <p>HTML</p>
-                <div class="progress-bar">
-                <div class="progress" style="width: 14%;"></div>
-                </div>
-                
-                
-                <h3 class="project_infos">Informations</h3>
-                <ul>
-                    <li>Projet personnel</li>                    
-                    <li>Need infos sur jeu</li>
-                </ul>
-                <h3 class="project_infos">Collaboration :</h3>
-                <ul>
-                    <li>Amélioration CSS par Mathilde</li>                     
-                </ul>
+                <p><a href="https://github.com/malibu1106/js-color-simon">Voir le github</a></p>
             </div>
-        </article>
+        </div>
+    </div>
+
+    <div class="project_details">
+
+
+        <h3 class="project_links">Langages utilisés</h3>
+        <p>JS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 26%;"></div>
+        </div>
+        <p>HTML</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 14%;"></div>
+        </div>
+
+
+        <h3 class="project_links">Informations</h3>
+        <ul>
+            <li>Projet personnel</li>
+            <li>Need infos sur jeu</li>
+        </ul>
+        <h3 class="project_links">Collaboration</h3>
+        <ul>
+            <li>Amélioration CSS par Mathilde</li>
+        </ul>
+    </div>
+</article>
 
 
 
