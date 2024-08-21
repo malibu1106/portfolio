@@ -10,10 +10,14 @@ function menuBurgerSwitcher() {
         menuBurger.classList.remove('burger_show');
         menuBurger.classList.add('burger_hidden');
         menuBurgerButton.innerHTML = "☰";
+        if (window.scrollY > 0) {
+            nav.style.boxShadow = "0px 5px 5px 0px rgba(0,0,0,0.5)";
+        }
 
     } else {
         menuBurger.classList.remove('burger_hidden');
         menuBurger.classList.add('burger_show');
+        nav.style.boxShadow = "none";
         menuBurgerButton.innerHTML = "X";
 
     }
@@ -69,7 +73,7 @@ function updateTexts(language, translations) {
         }
     });
 
-    document.title = translations[langKey].title;
+
 }
 
 // Fonction pour changer la langue
@@ -98,3 +102,27 @@ if (languageSwitcher) {
     const translations = await loadTranslations();
     updateTexts('french', translations);
 })();
+
+
+// Background nav on scroll
+let nav = document.getElementById('full_nav');
+
+window.addEventListener('scroll', function () {
+    if (window.scrollY > 0 && (menuBurger.classList.contains('burger_hidden'))) {
+        nav.style.boxShadow = "0px 5px 5px 0px rgba(0,0,0,0.5)";
+    } else {
+        nav.style.boxShadow = "none";
+    }
+});
+
+
+// return to top
+let arrow = document.getElementById('arrow');
+window.addEventListener('scroll', function () {
+    if (window.scrollY > window.innerHeight) {
+        arrow.style.display = "block";
+    } else {
+        arrow.style.display = "none";
+    }
+});
+

@@ -14,7 +14,7 @@ iframe {
 .return_to_portfolio {
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     z-index: 100000;
     opacity: 0.5;
     background-image: url("../img/return_to_portfolio.png");
