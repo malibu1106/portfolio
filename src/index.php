@@ -33,11 +33,11 @@
 
             <div id="burger_menu" class="burger_hidden">
                 <ul class="menu_buttons_mobile">
-                    <li><a href="#" data-translate="bouton_home">Accueil</a></li>
-                    <li><a href="index.php#profile" data-translate="bouton_profile">Profil</a></li>
-                    <li><a href="index.php#skills" data-translate="bouton_skills">Compétences</a></li>
-                    <li><a href="index.php#portfolio">Portfolio</a></li>
-                    <li><a href="index.php#contact">Contact</a></li>
+                    <li><a href="#" data-translate="bouton_home" onclick="menuBurgerSwitcher()">Accueil</a></li>
+                    <li><a href="index.php#profile" data-translate="bouton_profile" onclick="menuBurgerSwitcher()">Profil</a></li>
+                    <li><a href="index.php#skills" data-translate="bouton_skills" onclick="menuBurgerSwitcher()">Compétences</a></li>
+                    <li><a href="index.php#portfolio" onclick="menuBurgerSwitcher()">Portfolio</a></li>
+                    <li><a href="index.php#contact" onclick="menuBurgerSwitcher()">Contact</a></li>
                 </ul>
             </div>
 

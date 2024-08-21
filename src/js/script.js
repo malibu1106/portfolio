@@ -126,3 +126,19 @@ window.addEventListener('scroll', function () {
     }
 });
 
+
+// hide nav when scroll down, show when scroll up
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', function () {
+    let currentScroll = document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+        nav.style.position = 'absolute';
+    } else {
+        nav.style.position = 'fixed';
+    }
+
+    lastScrollTop = currentScroll;
+});
+
