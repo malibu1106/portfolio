@@ -14,7 +14,6 @@
     <header>
         <nav id="full_nav">
             <div class="nav_div nav_avatar">
-                <img alt="avatar" src="img/pfff.gif">
             </div>
             <div class="nav_div nav_menu">
                 <span id="menu_burger_button">☰</span>
@@ -106,6 +105,10 @@
                     <figcaption>Bootstrap</figcaption>
                 </figure>
                 <figure class="skills_logo">
+                    <img alt="logo tailwind" src="img/logos/tailwind.png">
+                    <figcaption>Tailwind</figcaption>
+                </figure>
+                <figure class="skills_logo">
                     <img alt="logo python" src="img/logos/python.png">
                     <figcaption>Python</figcaption>
                 </figure>
@@ -139,7 +142,7 @@
                         <a href="projects.php?project=jadoo">
 
 
-                            <img src="projects/jadoo.png"></a>
+                            <img src="projects/jadoo.png" alt="Image du projet jadoo"></a>
                     </figure>
                     <div class="project_links_container">
                         <div class="project_links_block">
@@ -191,7 +194,7 @@
                 <div class="figure_links">
                     <figure>
                         <a href="projects.php?project=projet-voyage">
-                            <img src="projects/bleu-blanc-bouge.png">
+                            <img src="projects/bleu-blanc-bouge.png" alt="Image du projet Bleu Blanc Bouge">
 
                         </a>
 
@@ -254,7 +257,7 @@
                 <div class="figure_links">
                     <figure>
                         <a href="projects/infinitea/">
-                            <img src="projects/infinitea.png">
+                            <img src="projects/infinitea.png" alt="Image du projet Infinitea">
 
                         </a>
 
@@ -327,7 +330,7 @@
                 <div class="figure_links">
                     <figure>
                         <a href="projects.php?project=color-simon">
-                            <img src="projects/color-simon.png">
+                            <img src="projects/color-simon.png" alt="Image du projet Color Memo">
                         </a>
 
                     </figure>
