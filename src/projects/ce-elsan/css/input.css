@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* INFO MESSAGE */
+.info_message{
+    animation: fade_out 3s 1s forwards;
+}
+.outline{
+    outline:solid black 1px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color:#2563EB;
+}
+.benefit,
+.close_icon{
+    cursor:pointer;
+}
+
+
+/* NAV */
+.nav_icons{
+    cursor:pointer;
+}
+
+/* INDEX */
+input[type=submit]{
+    cursor:pointer;
+}
+
+/* BO - USERS */
+.edit_user_zone,
+.edit_user_close{
+    display:none;
+}
+.edit_user_close,
+.edit_user_zone img,
+.edit_user_btn,
+.cancel_user_delete{
+    cursor:pointer;
+}
+.confirm_delete_user,
+.cancel_user_delete{
+    display:none;
+}
+
+/* BO - GENERAL */
+.confirm_delete_permanence,
+.cancel_delete_permanence,
+.confirm_delete_actualite,
+.cancel_delete_actualite,
+.confirm_delete_avantage,
+.cancel_delete_avantage,
+.confirm_delete_request,
+.cancel_delete_request,
+.confirm_delete_suggestion,
+.cancel_delete_suggestion{
+    display:none;
+}
+
+.cancel_delete_permanence,
+.cancel_delete_actualite,
+.cancel_delete_avantage,
+.cancel_delete_request,
+.cancel_delete_suggestion{
+    cursor:pointer;
+}
+/* ANIMATIONS */
+@keyframes fade_out {
+    0% {
+        opacity: 1;
+        z-index: 30;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
+}

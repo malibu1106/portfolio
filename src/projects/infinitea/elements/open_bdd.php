@@ -1,5 +1,5 @@
 <?php
-const DBHOST = "db";
+const DBHOST = "db_infinitea";
 const DBNAME = "infinitea";
 const DBUSER = "infinitea";
 const DBPASS = "infinitea_password";

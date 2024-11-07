@@ -430,6 +430,10 @@ article figure img {
     border-radius: 12px;
 }
 
+article video{
+    border-radius:12px;
+}
+
 .project_title {
     text-align: unset;
     margin: 4vh auto 0;

@@ -326,7 +326,7 @@
 
 
             <h2 id="color-simon" class="project_title anchor">Color Memo</h2>
-            <article class="project anchor">
+            <article class="project anchor border">
                 <div class="figure_links">
                     <figure>
                         <a href="projects.php?project=color-simon">
@@ -370,7 +370,7 @@
 
                     <h3 class="project_links" data-translate="info">Informations</h3>
                     <ul>
-                        <li data-translate="training_project">Projet personnel</li>
+                        <li data-translate="perso_project">Projet personnel</li>
                         <li data-translate="game_logic_development">Développement de la logique de jeu</li>
                         <li data-translate="difficulty_management">Gestion de la difficulté</li>
                         <li data-translate="gameplay_optimization">Optimisation du gameplay</li>
@@ -383,6 +383,154 @@
                     </ul>
                 </div>
             </article>
+
+            <h2 id="elsan" class="project_title anchor">CE Elsan</h2>
+            <article class="project anchor border">
+                <div class="figure_links">
+                    <figure>
+                        <a href="projects/ce-elsan/">
+                            <img src="projects/elsan.png" alt="Image du projet CE Elsan">
+
+                        </a>
+
+                    </figure>
+                    <div class="project_links_container">
+                        <div class="project_links_block">
+                            <div class="project_links_logo local">
+                            </div>
+                            <p><a href="projects/ce-elsan/" data-translate="see_project">Voir le projet</a></p>
+                        </div>
+                        <div class="project_links_block">
+                            <div class="project_links_logo github">
+                            </div>
+                            <p><a href="https://github.com/malibu1106/ce-elsan" data-translate="see_github">Voir le
+                                    github</a></p>
+                        </div>
+                    </div>
+                    <p data-translate="infos_infinitea">
+                    Utilisez ces identifiants pour voir toutes les fonctionnalités</p><br>
+                    ID : superuser@elsan.com<br>
+                    PSWD : superuser
+                    
+                </div>
+
+                <div class="project_details">
+
+
+                    <h3 class="project_links" data-translate="used_languages">Langages utilisés</h3>
+                    <p>PHP - SQL</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <p>HTML - Tailwind</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 20%;"></div>
+                    </div>
+                    <p>JS - Ajax</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 5%;"></div>
+                    </div>
+
+
+
+                    <h3 class="project_links" data-translate="info">Informations</h3>
+                    <ul>
+                    <li data-translate="perso_project">Projet personnel</li>
+                    
+                        
+
+                        <li data-translate="mobile_interface">Interface orientée mobile</li>
+                        <li data-translate="bbb_info_2">Réalisation de la maquette & du site</li>
+                        <li data-translate="mcd">Réalisation du MCD</li>
+                    </ul>
+
+                    <h3 class="project_links" data-translate="user">Utilisateurs</h3>
+                    <ul>
+                    <li data-translate="inscriptions">Inscription</li>
+                    <li data-translate="submit_suggestions">Soumission de suggestions</li>
+                    <li data-translate="edit_profile">Edition du profil</li>
+
+                    </ul>
+
+                    <h3 class="project_links" data-translate="admin">Administrateurs</h3>
+                    <ul>
+                    <li data-translate="valid_inscript">Validation des inscriptions</li>
+                    <li data-translate="valid_suggestions">Validation des suggestions</li>
+                    <li data-translate="user_management">Gestion des utilisateurs</li>
+                    <li data-translate="content_management_plus">Gestion et modération du contenu :</li>
+                        <ul style="margin-left:25px; list-style-type: square;">
+                        <li data-translate="permanences">Permanences</li>
+                        <li data-translate="actualites">Actualités</li>
+                        <li data-translate="suggestions">Suggestions</li>
+                        <li data-translate="avantages">Avantages</li>
+                        <li data-translate="demandes">Demandes</li>
+                        </ul>
+                    </ul>
+                    
+                </div>
+            </article>
+
+
+            <h2 id="circle" class="project_title anchor">Circle (en cours)</h2>
+            <article class="project anchor">
+                <div class="figure_links">
+                    <figure>
+                        <video src="projects/circle.mp4" controls>
+                    </figure>
+
+                    
+                </div>
+
+                <div class="project_details">
+
+
+                    <h3 class="project_links" data-translate="used_languages">Langages utilisés</h3>
+                    <p>JS</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 20%;"></div>
+                    </div>
+                    <p>HTML</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 10%;"></div>
+                    </div>
+                    <p>Kotlin</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 10%;"></div>
+                    </div>
+                    
+
+
+
+                    <h3 class="project_links" data-translate="info">Informations</h3>
+                    <ul>
+                    <strong><li data-translate="android_app">Application Android</li></strong>
+<li data-translate="perso_project">Projet personnel</li>
+<li data-translate="responsive_interface">Création d'une interface responsive</li>
+<li data-translate="shared_preferences">Utilisation des SharedPreferences Android</li>
+<li data-translate="sound_service">Création d'un service pour la bande sonore</li>
+<li data-translate="level_creation">Création des niveaux :</li>
+<ul style="margin-left:25px; list-style-type:square;">
+    <li data-translate="level_designs">Designs</li>
+    <li data-translate="level_rules">Règles</li>
+    <li data-translate="game_logic">Logiques de jeu</li>
+    <li data-translate="difficulty_variables">Variables d'ajustement difficulté</li>
+</ul>
+
+                    </ul>
+                    
+                    </ul>
+
+                    
+                    
+                </div>
+            </article>
+
+
+            
 
 
 

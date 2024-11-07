@@ -82,10 +82,12 @@ async function switchLanguage() {
         language = 'english';
         languageSwitcher.src = 'img/french_flag.svg';
         languageSwitcher.alt = 'French language settings button';
+        nav.style.position = 'absolute';
     } else {
         language = 'french';
         languageSwitcher.src = 'img/english_flag.svg';
         languageSwitcher.alt = 'English language settings button';
+        nav.style.position = 'absolute';
     }
 
     const translations = await loadTranslations();
