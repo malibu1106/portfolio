@@ -313,12 +313,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 4vw;
-    padding: 4vw;
+    gap: 40px;
+    padding: 40px;
+    /* outline:solid orange 2px; */
 }
 
 .skills_details figure {
     width: 120px;
+    /* outline:solid red 2px; */
 }
 
 .skills_details figcaption {
@@ -668,6 +670,7 @@ footer {
         flex-direction: row;
         gap: 4vw;
         max-width: 1600px;
+        /* outline:solid yellow 2px; */
         margin: auto;
 
     }
@@ -725,4 +728,14 @@ footer {
 
 
 
+}
+
+
+@media screen and (min-width: 1368px) {
+    .skills_details{
+        /* gap:80px; */
+    }
+    .skills_details figure{
+        margin: 50px auto;
+    }
 }

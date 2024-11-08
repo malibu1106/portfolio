@@ -101,6 +101,10 @@
                     <figcaption>My SQL</figcaption>
                 </figure>
                 <figure class="skills_logo">
+                    <img alt="logo python" src="img/logos/python.png">
+                    <figcaption>Python</figcaption>
+                </figure>
+                <figure class="skills_logo">
                     <img alt="logo bootstrap" src="img/logos/bootstrap.png">
                     <figcaption>Bootstrap</figcaption>
                 </figure>
@@ -109,9 +113,11 @@
                     <figcaption>Tailwind</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo python" src="img/logos/python.png">
-                    <figcaption>Python</figcaption>
+                    <img alt="logo aws" src="img/logos/aws.png">
+                    <figcaption>AWS</figcaption>
                 </figure>
+                
+                
             </div>
 
 
