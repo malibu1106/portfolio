@@ -144,3 +144,32 @@ window.addEventListener('scroll', function () {
     lastScrollTop = currentScroll;
 });
 
+// Fonction pour vérifier si une partie de l'élément est visible dans la fenêtre
+function isElementPartiallyInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top < (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.bottom > 0
+    );
+}
+
+// Fonction pour gérer l'état des éléments au défilement
+function handleScroll() {
+    // Sélectionner les éléments avec les classes project_slide et project_slide_reverse
+    const elements = document.querySelectorAll('.project_slide, .project_slide_reverse');
+    elements.forEach(el => {
+        if (isElementPartiallyInViewport(el)) {
+            el.classList.add('slide-in'); // Ajoute la classe pour afficher l'élément
+            el.classList.remove('slide-out'); // Retire la classe qui cache l'élément
+        } else {
+            el.classList.remove('slide-in'); // Retire la classe pour cacher l'élément
+            el.classList.add('slide-out'); // Ajoute la classe pour l'état caché
+        }
+    });
+}
+
+// Lancer la vérification lors du scroll
+window.addEventListener('scroll', handleScroll);
+
+// Vérifier immédiatement au chargement de la page
+window.addEventListener('DOMContentLoaded', handleScroll);

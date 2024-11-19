@@ -73,6 +73,7 @@ button:hover {
     background-size: contain;
     opacity: 0.5;
     cursor: pointer;
+    z-index: 1000;
     transition: opacity 0.5s ease, background-image 1s ease, transform 0.5s ease;
 }
 
@@ -432,8 +433,8 @@ article figure img {
     border-radius: 12px;
 }
 
-article video{
-    border-radius:12px;
+article video {
+    border-radius: 12px;
 }
 
 .project_title {
@@ -616,6 +617,33 @@ footer {
     }
 }
 
+.project_slide {
+    opacity: 0;
+    /* Les éléments sont invisibles au départ */
+    transform: translateX(-150px);
+    /* Positionnés légèrement hors de l’écran */
+    transition: all 0.3s ease-out;
+    /* Animation fluide */
+}
+
+.project_slide_reverse {
+    opacity: 0;
+    /* Les éléments sont invisibles au départ */
+    transform: translateX(150px);
+    /* Positionnés légèrement hors de l’écran */
+    transition: all 0.3s ease-out;
+    /* Animation fluide */
+}
+
+.slide-in {
+    opacity: 1;
+    /* Deviennent visibles */
+    transform: translateX(0);
+    /* Reprennent leur position initiale */
+}
+
+
+
 /* MEDIA QUERIES */
 
 
@@ -732,10 +760,11 @@ footer {
 
 
 @media screen and (min-width: 1368px) {
-    .skills_details{
+    .skills_details {
         /* gap:80px; */
     }
-    .skills_details figure{
+
+    .skills_details figure {
         margin: 50px auto;
     }
 }
