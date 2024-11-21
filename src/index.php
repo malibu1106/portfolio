@@ -2,15 +2,14 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js" defer></script>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script defer="" src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
     <title>Malibu</title>
 </head>
 
 <body>
-
     <header>
         <nav id="full_nav">
             <div class="nav_div nav_avatar">
@@ -18,47 +17,43 @@
             <div class="nav_div nav_menu">
                 <span id="menu_burger_button">☰</span>
                 <ul class="menu_buttons_desktop">
-                    <li><a href="#" data-translate="bouton_home">Accueil</a></li>
-                    <li><a href="index.php#profile" data-translate="bouton_profile">Profil</a></li>
-                    <li><a href="index.php#skills" data-translate="bouton_skills">Compétences</a></li>
+                    <li><a data-translate="bouton_home" href="#">Accueil</a></li>
+                    <li><a data-translate="bouton_profile" href="index.php#profile">Profil</a></li>
+                    <li><a data-translate="bouton_skills" href="index.php#skills">Compétences</a></li>
                     <li><a href="index.php#portfolio">Portfolio</a></li>
                     <li><a href="index.php#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="nav_div nav_settings">
-                <img id="themeToggle" alt="dark mode button" src="img/dark-mode.png">
-                <img id="language_switcher_button" alt="english language settings button" src="img/english_flag.svg">
+                <img alt="dark mode button" id="themeToggle" loading="lazy" src="img/dark-mode.png" />
+                <img alt="english language settings button" id="language_switcher_button" loading="lazy"
+                    src="img/english_flag.svg" />
             </div>
-
-            <div id="burger_menu" class="burger_hidden">
+            <div class="burger_hidden" id="burger_menu">
                 <ul class="menu_buttons_mobile">
-                    <li><a href="#" data-translate="bouton_home" onclick="menuBurgerSwitcher()">Accueil</a></li>
-                    <li><a href="index.php#profile" data-translate="bouton_profile"
+                    <li><a data-translate="bouton_home" href="#" onclick="menuBurgerSwitcher()">Accueil</a></li>
+                    <li><a data-translate="bouton_profile" href="index.php#profile"
                             onclick="menuBurgerSwitcher()">Profil</a></li>
-                    <li><a href="index.php#skills" data-translate="bouton_skills"
+                    <li><a data-translate="bouton_skills" href="index.php#skills"
                             onclick="menuBurgerSwitcher()">Compétences</a></li>
                     <li><a href="index.php#portfolio" onclick="menuBurgerSwitcher()">Portfolio</a></li>
                     <li><a href="index.php#contact" onclick="menuBurgerSwitcher()">Contact</a></li>
                 </ul>
             </div>
-
         </nav>
     </header>
     <a href="#">
         <div id="arrow"></div>
     </a>
-
-
-
     <section class="home">
         <h1 class="opacity_anim" data-translate="title_home">Roberto De Sousa</h1>
         <h2 data-translate="description_home">Développeur Web FullStack- Intégrateur</h2>
         <a href="#profile"><button data-translate="whoiam">Qui suis-je?</button></a>
     </section>
-    <section id="profile" class="profile anchor">
+    <section class="profile anchor" id="profile">
         <h1 data-translate="titre_profile">A propos de moi</h1>
         <div class="profile_container">
-            <img src="img/profile.png" alt="Photo de présentation">
+            <img alt="Photo de présentation" loading="lazy" src="img/profile.png" />
             <span>
                 <p data-translate="description_profile">Je m'appelle Roberto De Sousa. Avant de me lancer pleinement
                     dans le développement web, j'ai travaillé dans différents secteurs du commerce, où j'ai acquis des
@@ -78,100 +73,87 @@
             </span>
         </div>
     </section>
-    <section id="skills" class="skills anchor p12">
+    <section class="skills anchor p12" id="skills">
         <h1 data-translate="bouton_skills">Compétences</h1>
-        <p data-translate="description_skills" class="p_description">Elles évoluent constamment, car la beauté de ce
+        <p class="p_description" data-translate="description_skills">Elles évoluent constamment, car la beauté de ce
             métier réside dans l'apprentissage continu, surtout lorsque l'on est curieux et passionné.</p>
         <div class="skills_container">
             <div class="skills_details">
                 <figure class="skills_logo">
-                    <img alt="logo html" src="img/logos/html.png">
+                    <img alt="logo html" loading="lazy" src="img/logos/html.png" />
                     <figcaption>HTML</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo css" src="img/logos/css.png">
+                    <img alt="logo css" loading="lazy" src="img/logos/css.png" />
                     <figcaption>CSS</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo javascript" src="img/logos/javascript.png">
+                    <img alt="logo javascript" loading="lazy" src="img/logos/javascript.png" />
                     <figcaption>JS</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo php" src="img/logos/php.png">
+                    <img alt="logo php" loading="lazy" src="img/logos/php.png" />
                     <figcaption>PHP</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo mysql" src="img/logos/mysql.png">
+                    <img alt="logo mysql" loading="lazy" src="img/logos/mysql.png" />
                     <figcaption>My SQL</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo python" src="img/logos/python.png">
+                    <img alt="logo python" loading="lazy" src="img/logos/python.png" />
                     <figcaption>Python</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo bootstrap" src="img/logos/bootstrap.png">
+                    <img alt="logo bootstrap" loading="lazy" src="img/logos/bootstrap.png" />
                     <figcaption>Bootstrap</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo tailwind" src="img/logos/tailwind.png">
+                    <img alt="logo tailwind" loading="lazy" src="img/logos/tailwind.png" />
                     <figcaption>Tailwind</figcaption>
                 </figure>
                 <figure class="skills_logo">
-                    <img alt="logo aws" src="img/logos/aws.png">
+                    <img alt="logo aws" loading="lazy" src="img/logos/aws.png" />
                     <figcaption>AWS</figcaption>
                 </figure>
-
-
             </div>
-
-
-
             <div class="skills_cv">
-
-                <a href="docs/CV_Roberto_De Sousa.pdf" target="_blank"><img id="cv_image" src="img/cv.png"
-                        alt="CV de Roberto De Sousa"></a>
+                <a href="docs/CV_Roberto_De Sousa.pdf" target="_blank"><img alt="CV de Roberto De Sousa" id="cv_image"
+                        loading="lazy" src="img/cv.png" /></a>
                 <button alt="Télécharger le CV">
-                    <a href="docs/CV_Roberto_De Sousa.pdf" download data-translate="download_resume">
+                    <a data-translate="download_resume" download="" href="docs/CV_Roberto_De Sousa.pdf">
                         Télécharger mon CV
                     </a>
-
                 </button>
             </div>
         </div>
     </section>
-    <section id="portfolio" class="portfolio anchor p12">
+    <section class="portfolio anchor p12" id="portfolio">
         <h1 data-translate="portfolio_title">Portfolio</h1>
-        <p data-translate="portfolio_description" class="p_description">Ci-dessous, quelques exemples de réalisations
+        <p class="p_description" data-translate="portfolio_description">Ci-dessous, quelques exemples de réalisations
             effectuées durant la formation, le stage et plus encore :</p>
         <div class="portfolio_container">
-
-            <h2 id="jadoo" class="project_title anchor project_slide">Jadoo</h2>
+            <h2 class="project_title anchor project_slide" id="jadoo">Jadoo</h2>
             <article class="project border">
                 <div class="figure_links">
                     <figure class="project_slide">
                         <a href="projects.php?project=jadoo">
-
-
-                            <img src="projects/jadoo.png" alt="Image du projet jadoo"></a>
+                            <img alt="Image du projet jadoo" loading="lazy" src="projects/jadoo.png" /></a>
                     </figure>
                     <div class="project_links_container project_slide_reverse">
                         <div class="project_links_block">
                             <div class="project_links_logo local">
                             </div>
-                            <p><a href="projects.php?project=jadoo" data-translate="see_project">Voir le projet</a></p>
+                            <p><a data-translate="see_project" href="projects.php?project=jadoo">Voir le projet</a></p>
                         </div>
                         <div class="project_links_block">
                             <div class="project_links_logo github">
                             </div>
-                            <p><a href="https://github.com/malibu1106/html-css-jadoo" data-translate="see_github">Voir
+                            <p><a data-translate="see_github" href="https://github.com/malibu1106/html-css-jadoo">Voir
                                     le github</a></p>
                         </div>
                     </div>
                 </div>
-
                 <div class="project_details">
-
-
                     <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">CSS</p>
                     <div class="progress-bar project_slide">
@@ -181,58 +163,51 @@
                     <div class="progress-bar project_slide">
                         <div class="progress project_slide" style="width: 44%;"></div>
                     </div>
-
                     <p class="project_slide_reverse">JS</p>
                     <div class="progress-bar project_slide">
                         <div class="progress project_slide" style="width: 6%;"></div>
                     </div>
                     <h3 class="project_links project_slide" data-translate="info">Informations</h3>
                     <ul>
-                        <li data-translate="training_project" class="project_slide_reverse">Projet de formation</li>
-                        <li data-translate="jadoo_info_2" class="project_slide_reverse">Réalisé depuis une maquette
+                        <li class="project_slide_reverse" data-translate="training_project">Projet de formation</li>
+                        <li class="project_slide_reverse" data-translate="jadoo_info_2">Réalisé depuis une maquette
                             complète
                         </li>
-                        <li data-translate="jadoo_info_3" class="project_slide_reverse">Animations majoritairement en
+                        <li class="project_slide_reverse" data-translate="jadoo_info_3">Animations majoritairement en
                             CSS</li>
-                        <li data-translate="jadoo_info_4" class="project_slide_reverse">Menu burger et quelques
+                        <li class="project_slide_reverse" data-translate="jadoo_info_4">Menu burger et quelques
                             animations en
                             JS</li>
                         <li class="project_slide_reverse">Responsive</li>
                     </ul>
-
-
                 </div>
             </article>
-
-            <h2 id="projet-voyage" class="project_title anchor project_slide">Bleu Blanc Bouge</h2>
+            <h2 class="project_title anchor project_slide" id="projet-voyage">Bleu Blanc Bouge</h2>
             <article class="project anchor border">
                 <div class="figure_links">
-                    <figure class=" project_slide">
+                    <figure class="project_slide">
                         <a href="projects.php?project=projet-voyage">
-                            <img src="projects/bleu-blanc-bouge.png" alt="Image du projet Bleu Blanc Bouge">
-
+                            <img alt="Image du projet Bleu Blanc Bouge" loading="lazy"
+                                src="projects/bleu-blanc-bouge.png" />
                         </a>
-
                     </figure>
                     <div class="project_links_container project_slide_reverse">
                         <div class="project_links_block">
                             <div class="project_links_logo local">
                             </div>
-                            <p><a href="projects.php?project=projet-voyage" data-translate="see_project">Voir le
+                            <p><a data-translate="see_project" href="projects.php?project=projet-voyage">Voir le
                                     projet</a></p>
                         </div>
                         <div class="project_links_block">
                             <div class="project_links_logo github">
                             </div>
-                            <p><a href="https://github.com/malibu1106/projet-voyage-fab-roberto"
-                                    data-translate="see_github">Voir le github</a></p>
+                            <p><a data-translate="see_github"
+                                    href="https://github.com/malibu1106/projet-voyage-fab-roberto">Voir le github</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-
                 <div class="project_details">
-
-
                     <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">HTML</p>
                     <div class="progress-bar project_slide">
@@ -250,14 +225,14 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 8%;"></div>
                     </div>
-
                     <h3 class="project_links project_slide" data-translate="info">Informations</h3>
                     <ul>
-                        <li data-translate="training_project" class="project_slide_reverse">Projet de formation</li>
-                        <li data-translate="bbb_info_2" class="project_slide_reverse">Réalisation de la maquette & du
+                        <li class="project_slide_reverse" data-translate="training_project">Projet de formation</li>
+                        <li class="project_slide_reverse" data-translate="bbb_info_2">Réalisation de la maquette &amp;
+                            du
                             site</li>
-                        <li data-translate="bbb_info_3" class="project_slide_reverse">Recherche filtrée en JS</li>
-                        <li data-translate="bbb_info_4" class="project_slide_reverse">Back-office full PHP</li>
+                        <li class="project_slide_reverse" data-translate="bbb_info_3">Recherche filtrée en JS</li>
+                        <li class="project_slide_reverse" data-translate="bbb_info_4">Back-office full PHP</li>
                         <li class="project_slide_reverse">Responsive</li>
                     </ul>
                     <h3 class="project_links project_slide">Collaboration</h3>
@@ -267,40 +242,33 @@
                     </ul>
                 </div>
             </article>
-
-            <h2 id="infinitea" class="project_title anchor project_slide">InfiniTea</h2>
+            <h2 class="project_title anchor project_slide" id="infinitea">InfiniTea</h2>
             <article class="project anchor border">
                 <div class="figure_links">
                     <figure class="project_slide">
                         <a href="projects/infinitea/">
-                            <img src="projects/infinitea.png" alt="Image du projet Infinitea">
-
+                            <img alt="Image du projet Infinitea" loading="lazy" src="projects/infinitea.png" />
                         </a>
-
                     </figure>
                     <div class="project_links_container project_slide_reverse">
                         <div class="project_links_block">
                             <div class="project_links_logo local">
                             </div>
-                            <p><a href="projects/infinitea/" data-translate="see_project">Voir le projet</a></p>
+                            <p><a data-translate="see_project" href="projects/infinitea/">Voir le projet</a></p>
                         </div>
                         <div class="project_links_block">
                             <div class="project_links_logo github">
                             </div>
-                            <p><a href="https://github.com/malibu1106/InfiniTea" data-translate="see_github">Voir le
+                            <p><a data-translate="see_github" href="https://github.com/malibu1106/InfiniTea">Voir le
                                     github</a></p>
                         </div>
                     </div>
-                    <p data-translate="infos_infinitea" class="project_slide_reverse">
-                        Utilisez ces identifiants pour voir toutes les fonctionnalités</p><br>
-                    <p class="project_slide_reverse">ID : superuser@infinitea.com<br>
+                    <p class="project_slide_reverse" data-translate="infos_infinitea">
+                        Utilisez ces identifiants pour voir toutes les fonctionnalités</p><br />
+                    <p class="project_slide_reverse">ID : superuser@infinitea.com<br />
                         PSWD : superuser</p>
-
                 </div>
-
                 <div class="project_details">
-
-
                     <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">PHP - SQL</p>
                     <div class="progress-bar project_slide">
@@ -318,17 +286,15 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 5%;"></div>
                     </div>
-
-
                     <h3 class="project_links project_slide" data-translate="info">Informations</h3>
                     <ul>
-                        <li data-translate="training_project" class=" project_slide_reverse">Projet de formation</li>
-                        <li data-translate="cart_management" class=" project_slide_reverse">Gestion de panier</li>
-                        <li data-translate="product_management" class=" project_slide_reverse">Gestion des produits</li>
-                        <li data-translate="order_management" class=" project_slide_reverse">Gestion des commandes</li>
-                        <li data-translate="user_management" class=" project_slide_reverse">Gestion des utilisateurs
+                        <li class="project_slide_reverse" data-translate="training_project">Projet de formation</li>
+                        <li class="project_slide_reverse" data-translate="cart_management">Gestion de panier</li>
+                        <li class="project_slide_reverse" data-translate="product_management">Gestion des produits</li>
+                        <li class="project_slide_reverse" data-translate="order_management">Gestion des commandes</li>
+                        <li class="project_slide_reverse" data-translate="user_management">Gestion des utilisateurs
                         </li>
-                        <li data-translate="" class=" project_slide_reverse">Responsive</li>
+                        <li class="project_slide_reverse" data-translate="">Responsive</li>
                     </ul>
                     <h3 class="project_links project_slide">Collaboration</h3>
                     <ul>
@@ -340,36 +306,30 @@
                     </ul>
                 </div>
             </article>
-
-
-            <h2 id="color-simon" class="project_title anchor project_slide">Color Memo</h2>
+            <h2 class="project_title anchor project_slide" id="color-simon">Color Memo</h2>
             <article class="project anchor border">
                 <div class="figure_links">
                     <figure class="project_slide">
                         <a href="projects.php?project=color-simon">
-                            <img src="projects/color-simon.png" alt="Image du projet Color Memo">
+                            <img alt="Image du projet Color Memo" loading="lazy" src="projects/color-simon.png" />
                         </a>
-
                     </figure>
                     <div class="project_links_container project_slide_reverse">
                         <div class="project_links_block">
                             <div class="project_links_logo local">
                             </div>
-                            <p><a href="projects.php?project=color-simon" data-translate="see_project">Voir le
+                            <p><a data-translate="see_project" href="projects.php?project=color-simon">Voir le
                                     projet</a></p>
                         </div>
                         <div class="project_links_block">
                             <div class="project_links_logo github">
                             </div>
-                            <p><a href="https://github.com/malibu1106/js-color-simon" data-translate="see_github">Voir
+                            <p><a data-translate="see_github" href="https://github.com/malibu1106/js-color-simon">Voir
                                     le github</a></p>
                         </div>
                     </div>
                 </div>
-
                 <div class="project_details">
-
-
                     <h3 class="project_links project_slide" data-translate="user_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">JS</p>
                     <div class="progress-bar project_slide">
@@ -383,17 +343,15 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 14%;"></div>
                     </div>
-
-
                     <h3 class="project_links project_slide" data-translate="info">Informations</h3>
                     <ul>
-                        <li data-translate="perso_project" class="project_slide_reverse">Projet personnel</li>
-                        <li data-translate="game_logic_development" class="project_slide_reverse">Développement de la
+                        <li class="project_slide_reverse" data-translate="perso_project">Projet personnel</li>
+                        <li class="project_slide_reverse" data-translate="game_logic_development">Développement de la
                             logique de
                             jeu</li>
-                        <li data-translate="difficulty_management" class="project_slide_reverse">Gestion de la
+                        <li class="project_slide_reverse" data-translate="difficulty_management">Gestion de la
                             difficulté</li>
-                        <li data-translate="gameplay_optimization" class="project_slide_reverse">Optimisation du
+                        <li class="project_slide_reverse" data-translate="gameplay_optimization">Optimisation du
                             gameplay</li>
                     </ul>
                     <h3 class="project_links project_slide">Collaboration</h3>
@@ -405,40 +363,33 @@
                     </ul>
                 </div>
             </article>
-
-            <h2 id="elsan" class="project_title anchor project_slide">CE Elsan</h2>
+            <h2 class="project_title anchor project_slide" id="elsan">CE Elsan</h2>
             <article class="project anchor border">
                 <div class="figure_links">
                     <figure class="project_slide">
                         <a href="projects/ce-elsan/">
-                            <img src="projects/elsan.png" alt="Image du projet CE Elsan">
-
+                            <img alt="Image du projet CE Elsan" loading="lazy" src="projects/elsan.png" />
                         </a>
-
                     </figure>
                     <div class="project_links_container project_slide_reverse">
                         <div class="project_links_block">
                             <div class="project_links_logo local">
                             </div>
-                            <p><a href="projects/ce-elsan/" data-translate="see_project">Voir le projet</a></p>
+                            <p><a data-translate="see_project" href="projects/ce-elsan/">Voir le projet</a></p>
                         </div>
                         <div class="project_links_block">
                             <div class="project_links_logo github">
                             </div>
-                            <p><a href="https://github.com/malibu1106/ce-elsan" data-translate="see_github">Voir le
+                            <p><a data-translate="see_github" href="https://github.com/malibu1106/ce-elsan">Voir le
                                     github</a></p>
                         </div>
                     </div>
-                    <p data-translate="infos_infinitea" class="project_slide_reverse">
-                        Utilisez ces identifiants pour voir toutes les fonctionnalités</p><br>
-                    <p class="project_slide_reverse">ID : superuser@elsan.com<br>
+                    <p class="project_slide_reverse" data-translate="infos_infinitea">
+                        Utilisez ces identifiants pour voir toutes les fonctionnalités</p><br />
+                    <p class="project_slide_reverse">ID : superuser@elsan.com<br />
                         PSWD : superuser</p>
-
                 </div>
-
                 <div class="project_details">
-
-
                     <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">PHP - SQL</p>
                     <div class="progress-bar project_slide">
@@ -452,64 +403,52 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 5%;"></div>
                     </div>
-
-
-
                     <h3 class="project_links project_slide" data-translate="info">Informations</h3>
                     <ul>
-                        <li data-translate="perso_project" class="project_slide_reverse">Projet personnel</li>
-                        <li data-translate="mobile_interface" class="project_slide_reverse">Interface orientée mobile
+                        <li class="project_slide_reverse" data-translate="perso_project">Projet personnel</li>
+                        <li class="project_slide_reverse" data-translate="mobile_interface">Interface orientée mobile
                         </li>
-                        <li data-translate="bbb_info_2" class=" project_slide_reverse">Réalisation de la maquette & du
+                        <li class="project_slide_reverse" data-translate="bbb_info_2">Réalisation de la maquette &amp;
+                            du
                             site</li>
-                        <li data-translate="mcd" class="project_slide_reverse">Réalisation du MCD</li>
+                        <li class="project_slide_reverse" data-translate="mcd">Réalisation du MCD</li>
                     </ul>
-
                     <h3 class="project_links project_slide" data-translate="user">Utilisateurs</h3>
                     <ul>
-                        <li data-translate="inscriptions" class="project_slide_reverse">Inscription</li>
-                        <li data-translate="submit_suggestions" class="project_slide_reverse">Soumission de suggestions
+                        <li class="project_slide_reverse" data-translate="inscriptions">Inscription</li>
+                        <li class="project_slide_reverse" data-translate="submit_suggestions">Soumission de suggestions
                         </li>
-                        <li data-translate="edit_profile" class="project_slide_reverse">Edition du profil</li>
-
+                        <li class="project_slide_reverse" data-translate="edit_profile">Edition du profil</li>
                     </ul>
-
                     <h3 class="project_links project_slide" data-translate="admin">Administrateurs</h3>
                     <ul>
-                        <li data-translate="valid_inscript" class="project_slide_reverse">Validation des inscriptions
+                        <li class="project_slide_reverse" data-translate="valid_inscript">Validation des inscriptions
                         </li>
-                        <li data-translate="valid_suggestions" class="project_slide_reverse">Validation des suggestions
+                        <li class="project_slide_reverse" data-translate="valid_suggestions">Validation des suggestions
                         </li>
-                        <li data-translate="user_management" class="project_slide_reverse">Gestion des utilisateurs</li>
-                        <li data-translate="content_management_plus" class="project_slide_reverse">Gestion et modération
+                        <li class="project_slide_reverse" data-translate="user_management">Gestion des utilisateurs</li>
+                        <li class="project_slide_reverse" data-translate="content_management_plus">Gestion et modération
                             du
                             contenu :</li>
                         <ul style="margin-left:25px; list-style-type: square;">
-                            <li data-translate="permanences" class="project_slide_reverse">Permanences</li>
-                            <li data-translate="actualites" class="project_slide_reverse">Actualités</li>
-                            <li data-translate="suggestions" class="project_slide_reverse">Suggestions</li>
-                            <li data-translate="avantages" class="project_slide_reverse">Avantages</li>
-                            <li data-translate="demandes" class="project_slide_reverse">Demandes</li>
+                            <li class="project_slide_reverse" data-translate="permanences">Permanences</li>
+                            <li class="project_slide_reverse" data-translate="actualites">Actualités</li>
+                            <li class="project_slide_reverse" data-translate="suggestions">Suggestions</li>
+                            <li class="project_slide_reverse" data-translate="avantages">Avantages</li>
+                            <li class="project_slide_reverse" data-translate="demandes">Demandes</li>
                         </ul>
                     </ul>
-
                 </div>
             </article>
-
-
-            <h2 id="circle" class="project_title anchor project_slide">Circle (en cours)</h2>
+            <h2 class="project_title anchor project_slide" id="circle">Circle (en cours)</h2>
             <article class="project anchor">
                 <div class="figure_links">
                     <figure class="project_slide">
-                        <video src="projects/circle.mp4" controls>
+                        <video controls="" src="projects/circle.mp4">
+                        </video>
                     </figure>
-
-
                 </div>
-
                 <div class="project_details">
-
-
                     <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">JS</p>
                     <div class="progress-bar project_slide">
@@ -527,106 +466,82 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 10%;"></div>
                     </div>
-
-
-
-
                     <h3 class="project_links project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <strong>
-                            <li data-translate="android_app" class="project_slide_reverse">Application Android</li>
+                            <li class="project_slide_reverse" data-translate="android_app">Application Android</li>
                         </strong>
-                        <li data-translate="perso_project" class="project_slide_reverse">Projet personnel</li>
-                        <li data-translate="responsive_interface" class="project_slide_reverse">Création d'une interface
+                        <li class="project_slide_reverse" data-translate="perso_project">Projet personnel</li>
+                        <li class="project_slide_reverse" data-translate="responsive_interface">Création d'une interface
                             responsive</li>
-                        <li data-translate="shared_preferences" class="project_slide_reverse">Utilisation des
+                        <li class="project_slide_reverse" data-translate="shared_preferences">Utilisation des
                             SharedPreferences
                             Android</li>
-                        <li data-translate="sound_service" class="project_slide_reverse">Création d'un service pour la
+                        <li class="project_slide_reverse" data-translate="sound_service">Création d'un service pour la
                             bande
                             sonore</li>
-                        <li data-translate="level_creation" class="project_slide_reverse">Création des niveaux :</li>
+                        <li class="project_slide_reverse" data-translate="level_creation">Création des niveaux :</li>
                         <ul style="margin-left:25px; list-style-type:square;">
-                            <li data-translate="level_designs" class="project_slide_reverse">Designs</li>
-                            <li data-translate="level_rules" class="project_slide_reverse">Règles</li>
-                            <li data-translate="game_logic" class="project_slide_reverse">Logiques de jeu</li>
-                            <li data-translate="difficulty_variables" class="project_slide_reverse">Variables
+                            <li class="project_slide_reverse" data-translate="level_designs">Designs</li>
+                            <li class="project_slide_reverse" data-translate="level_rules">Règles</li>
+                            <li class="project_slide_reverse" data-translate="game_logic">Logiques de jeu</li>
+                            <li class="project_slide_reverse" data-translate="difficulty_variables">Variables
                                 d'ajustement
                                 difficulté</li>
                         </ul>
-
                     </ul>
-
-                    </ul>
-
-
-
                 </div>
             </article>
-
-
-
-
-
-
-
         </div>
     </section>
-    <section id="contact" class="contact anchor">
+    <section class="contact anchor" id="contact">
         <h1 data-translate="contact_title">Contactez-moi</h1>
-        <p data-translate="contact_description" class="p_description">N'hésitez pas à me contacter, je vous répondrai
+        <p class="p_description" data-translate="contact_description">N'hésitez pas à me contacter, je vous répondrai
             dans les plus brefs délais.</p>
         <div class="contact_container">
             <form action="formulaire.php" method="POST">
                 <div class="form_double_input">
                     <div class="form_double_input_block">
-                        <label for="name" data-translate="form_input_name">Nom</label>
-                        <input class="double_input" type="text" name="name" />
+                        <label data-translate="form_input_name" for="name">Nom</label>
+                        <input class="double_input" name="name" type="text" />
                     </div>
                     <div class="form_double_input_block">
-                        <label for="firstname" data-translate="form_input_firstname">Prénom</label>
-                        <input class="double_input" type="text" name="firstname" />
+                        <label data-translate="form_input_firstname" for="firstname">Prénom</label>
+                        <input class="double_input" name="firstname" type="text" />
                     </div>
                 </div>
                 <div class="form_double_input">
                     <div class="form_double_input_block">
                         <label for="mail">Email *</label>
-                        <input type="mail" name="mail" required />
+                        <input name="mail" required="" type="mail" />
                     </div>
                     <div class="form_double_input_block">
-                        <label for="tel" data-translate="form_input_tel">Téléphone</label>
-                        <input type="tel" name="tel" />
+                        <label data-translate="form_input_tel" for="tel">Téléphone</label>
+                        <input name="tel" type="tel" />
                     </div>
                 </div>
                 <div class="form_temp">
-                    <label for="object" data-translate="form_input_object">Objet</label>
-                    <input type="text" name="object" />
+                    <label data-translate="form_input_object" for="object">Objet</label>
+                    <input name="object" type="text" />
                     <label for="message">Message *</label>
-                    <textarea name="message" required></textarea>
+                    <textarea name="message" required=""></textarea>
                 </div>
                 <p>Champs obligatoires *</p>
-
-
                 <button data-translate="form_send_button">Envoyer</button>
-
-
-
             </form>
             <h1 data-translate="contact_others" id="titremin">Ou contactez-moi par :</h1>
             <div class="contact_others">
-                <a class="" href="tel:0650555911"><button class="button_contact">Tel:<br>06 50 55 59 11</button></a>
+                <a class="" href="tel:0650555911"><button class="button_contact">Tel:<br />06 50 55 59 11</button></a>
                 <a class="" href="mailto:malibu1106@gmail.com"><button
-                        class="button_contact">Mail:<br>malibu1106@gmail.com</button></a>
-                <!-- <a class="" href="#"><button class="button_contact">LinkedIn</button></a> -->
+                        class="button_contact">Mail:<br />malibu1106@gmail.com</button></a>
             </div>
         </div>
     </section>
     <footer>
         <p>© Copyright 2024 - Roberto De Sousa. <span data-translate="arr">Tous droits réservés.</span></p>
-
-        <p><a href="#" data-translate="site_map">Plan du site</a> |
-            <a href="#" data-translate="legal_mentions">Mentions légales</a><br><br>
-            <a href="#" data-translate="privacy_policy">Ce site n'utilise aucun cookie et ne collecte aucune donnée
+        <p><a data-translate="site_map" href="#">Plan du site</a> |
+            <a data-translate="legal_mentions" href="#">Mentions légales</a><br /><br />
+            <a data-translate="privacy_policy" href="#">Ce site n'utilise aucun cookie et ne collecte aucune donnée
                 personnelle.</a>
         </p>
     </footer>
