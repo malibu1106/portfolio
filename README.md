@@ -9,6 +9,10 @@ Ce projet utilise Docker Compose pour déployer une application PHP avec un serv
 
 ### Étape 1 : Cloner le dépôt github 
    git clone https://github.com/malibu1106/portfolio
+
+
+
+   
    cd portfolio
 ### Étape 2 : Lancer les conteneurs avec Docker
 
