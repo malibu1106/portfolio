@@ -16,6 +16,7 @@ Ce projet utilise Docker Compose pour déployer une application PHP avec un serv
 
 
 Une fois dans le répertoire du projet, exécutez la commande suivante pour construire et démarrer les conteneurs Docker :
+
 `docker-compose up --build`
 
 
