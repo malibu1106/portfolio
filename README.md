@@ -8,18 +8,15 @@ Ce projet utilise Docker Compose pour déployer une application PHP avec un serv
 ## Lancer le projet
 
 ### Étape 1 : Cloner le dépôt github 
-   git clone https://github.com/malibu1106/portfolio
-
-
-
+   `git clone https://github.com/malibu1106/portfolio`   
+   `cd portfolio`
    
-   cd portfolio
 ### Étape 2 : Lancer les conteneurs avec Docker
 
 
 
 Une fois dans le répertoire du projet, exécutez la commande suivante pour construire et démarrer les conteneurs Docker :
-docker-compose up --build
+`docker-compose up --build`
 
 
 Les services suivants seront accessibles :
@@ -38,11 +35,11 @@ Les services suivants seront accessibles :
 
 
 - **Arrêter les conteneurs** :  
-  docker-compose down
+  `docker-compose down`
 
 
 - **Rebuild des conteneurs** :  
-  docker-compose up --build
+  `docker-compose up --build`
 
 ## Configuration des services
 
