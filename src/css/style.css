@@ -35,6 +35,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+
+body {
+  overflow: auto; /* Permet le défilement */
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* Cache la largeur de la scrollbar */
+  height: 0; /* Cache la hauteur de la scrollbar (horizontale) */
+}
+
+
+
 body {
   background-color: var(--background-color);
   transition: background-color 1s ease, color 1s ease;
@@ -285,12 +299,8 @@ button {
 .progress {
   height: 100%;
   background-color: var(--secondary-color);
-  text-align: right;
-  padding-right: 10px;
-  color: white;
-  line-height: 20px;
   border-radius: 10px 0 0 10px;
-  transition: width 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .skills_cv img {
   max-height: 80vh;
@@ -315,7 +325,7 @@ button {
   font-size: 1.2em;
   margin: 4vh auto;
 }
-article {
+.project {
   width: 96%;
   margin: auto;
   display: flex;
@@ -327,18 +337,16 @@ article {
 .border {
   border-bottom: solid var(--secondary-color) 1px;
 }
-article figure {
+.project figure {
   max-width: 420px;
-  box-shadow: 0px 0px 8px 2px #000000;
-  border-radius: 12px;
   margin: 12px auto;
 }
-article figure img {
+.project figure img,
+.project video {
   border-radius: 12px;
+  box-shadow: 0px 0px 8px 2px #000000;
 }
-article video {
-  border-radius: 12px;
-}
+
 .project_title {
   text-align: unset;
   margin: 4vh auto 0;
@@ -365,7 +373,7 @@ article video {
   margin: auto;
   padding: 4px;
 }
-.project_links {
+.project_blocks {
   text-align: center;
   color: var(--primary-color);
   margin: 24px;
@@ -544,7 +552,7 @@ footer {
     max-width: 1200px;
     margin: auto;
   }
-  article {
+  .project {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 8vh;

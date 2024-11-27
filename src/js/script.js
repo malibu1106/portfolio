@@ -24,22 +24,31 @@ function menuBurgerSwitcher() {
 }
 
 /* Dark/Light mode switcher */
+// Sélectionne l'élément du DOM avec l'ID 'themeToggle' (par exemple, un bouton ou une icône)
 let themeToggle = document.getElementById('themeToggle');
 
+// Fonction pour basculer entre les modes clair et sombre
 function toggleTheme() {
-    const body = document.body;
+    // Vérifie si l'attribut 'data-theme' sur <html> est actuellement défini sur 'theme-dark'
     if (document.documentElement.getAttribute('data-theme') === 'theme-dark') {
+        // Si le thème actuel est sombre, supprime l'attribut 'data-theme' pour revenir au thème clair
         document.documentElement.removeAttribute('data-theme');
-        themeToggle.src = "img/dark-mode.png"
-        themeToggle.alt = "dark mode button"
 
+        // Met à jour l'icône du bouton pour représenter le mode sombre activable
+        themeToggle.src = "img/dark-mode.png"; // Chemin de l'image pour le bouton du mode sombre
+        themeToggle.alt = "dark mode button"; // Texte alternatif pour l'accessibilité
     } else {
+        // Sinon, applique 'theme-dark' comme valeur de l'attribut 'data-theme' pour activer le mode sombre
         document.documentElement.setAttribute('data-theme', 'theme-dark');
-        themeToggle.src = "img/light-mode.png"
-        themeToggle.alt = "light mode button"
+
+        // Met à jour l'icône du bouton pour représenter le mode clair activable
+        themeToggle.src = "img/light-mode.png"; // Chemin de l'image pour le bouton du mode clair
+        themeToggle.alt = "light mode button"; // Texte alternatif pour l'accessibilité
     }
 }
 
+// Ajoute un écouteur d'événement sur l'élément 'themeToggle'
+// La fonction `toggleTheme` sera appelée chaque fois que l'élément est cliqué
 document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 
 
@@ -160,10 +169,8 @@ function handleScroll() {
     elements.forEach(el => {
         if (isElementPartiallyInViewport(el)) {
             el.classList.add('slide-in'); // Ajoute la classe pour afficher l'élément
-            el.classList.remove('slide-out'); // Retire la classe qui cache l'élément
         } else {
             el.classList.remove('slide-in'); // Retire la classe pour cacher l'élément
-            el.classList.add('slide-out'); // Ajoute la classe pour l'état caché
         }
     });
 }

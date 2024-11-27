@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 <div class="project_details">
-                    <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
+                    <h3 class="project_blocks project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">CSS</p>
                     <div class="progress-bar project_slide">
                         <div class="progress project_slide" style="width: 50%;"></div>
@@ -167,7 +167,7 @@
                     <div class="progress-bar project_slide">
                         <div class="progress project_slide" style="width: 6%;"></div>
                     </div>
-                    <h3 class="project_links project_slide" data-translate="info">Informations</h3>
+                    <h3 class="project_blocks project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="training_project">Projet de formation</li>
                         <li class="project_slide_reverse" data-translate="jadoo_info_2">Réalisé depuis une maquette
@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 <div class="project_details">
-                    <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
+                    <h3 class="project_blocks project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">HTML</p>
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 40%;"></div>
@@ -225,7 +225,7 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 8%;"></div>
                     </div>
-                    <h3 class="project_links project_slide" data-translate="info">Informations</h3>
+                    <h3 class="project_blocks project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="training_project">Projet de formation</li>
                         <li class="project_slide_reverse" data-translate="bbb_info_2">Réalisation de la maquette &amp;
@@ -235,7 +235,7 @@
                         <li class="project_slide_reverse" data-translate="bbb_info_4">Back-office full PHP</li>
                         <li class="project_slide_reverse">Responsive</li>
                     </ul>
-                    <h3 class="project_links project_slide">Collaboration</h3>
+                    <h3 class="project_blocks project_slide">Collaboration</h3>
                     <ul>
                         <li class="project_slide_reverse"><span data-translate="design_help">Aide pour le design</span>
                             : <a href="#"><strong>cy-fa</strong></a></li>
@@ -243,7 +243,7 @@
                 </div>
             </article>
             <h2 class="project_title anchor project_slide" id="infinitea">InfiniTea</h2>
-            <article class="project anchor border">
+            <article class="project border">
                 <div class="figure_links">
                     <figure class="project_slide">
                         <a href="projects/infinitea/">
@@ -269,7 +269,7 @@
                         PSWD : superuser</p>
                 </div>
                 <div class="project_details">
-                    <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
+                    <h3 class="project_blocks project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">PHP - SQL</p>
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 45%;"></div>
@@ -286,7 +286,7 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 5%;"></div>
                     </div>
-                    <h3 class="project_links project_slide" data-translate="info">Informations</h3>
+                    <h3 class="project_blocks project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="training_project">Projet de formation</li>
                         <li class="project_slide_reverse" data-translate="cart_management">Gestion de panier</li>
@@ -296,7 +296,7 @@
                         </li>
                         <li class="project_slide_reverse" data-translate="">Responsive</li>
                     </ul>
-                    <h3 class="project_links project_slide">Collaboration</h3>
+                    <h3 class="project_blocks project_slide">Collaboration</h3>
                     <ul>
                         <li class="project_slide_reverse"><span data-translate="infinitea_collab">Design et choix des
                                 ressources</span> <span data-translate="by">par</span> <a
@@ -330,7 +330,7 @@
                     </div>
                 </div>
                 <div class="project_details">
-                    <h3 class="project_links project_slide" data-translate="user_languages">Langages utilisés</h3>
+                    <h3 class="project_blocks project_slide" data-translate="user_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">JS</p>
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 60%;"></div>
@@ -343,7 +343,7 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 14%;"></div>
                     </div>
-                    <h3 class="project_links project_slide" data-translate="info">Informations</h3>
+                    <h3 class="project_blocks project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="perso_project">Projet personnel</li>
                         <li class="project_slide_reverse" data-translate="game_logic_development">Développement de la
@@ -354,7 +354,7 @@
                         <li class="project_slide_reverse" data-translate="gameplay_optimization">Optimisation du
                             gameplay</li>
                     </ul>
-                    <h3 class="project_links project_slide">Collaboration</h3>
+                    <h3 class="project_blocks project_slide">Collaboration</h3>
                     <ul>
                         <li class="project_slide_reverse"><span data-translate="improved">Amélioration du CSS</span>
                             <span data-translate="by">par</span> <a
@@ -390,7 +390,7 @@
                         PSWD : superuser</p>
                 </div>
                 <div class="project_details">
-                    <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
+                    <h3 class="project_blocks project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">PHP - SQL</p>
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 75%;"></div>
@@ -403,7 +403,7 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 5%;"></div>
                     </div>
-                    <h3 class="project_links project_slide" data-translate="info">Informations</h3>
+                    <h3 class="project_blocks project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="perso_project">Projet personnel</li>
                         <li class="project_slide_reverse" data-translate="mobile_interface">Interface orientée mobile
@@ -413,14 +413,14 @@
                             site</li>
                         <li class="project_slide_reverse" data-translate="mcd">Réalisation du MCD</li>
                     </ul>
-                    <h3 class="project_links project_slide" data-translate="user">Utilisateurs</h3>
+                    <h3 class="project_blocks project_slide" data-translate="user">Utilisateurs</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="inscriptions">Inscription</li>
                         <li class="project_slide_reverse" data-translate="submit_suggestions">Soumission de suggestions
                         </li>
                         <li class="project_slide_reverse" data-translate="edit_profile">Edition du profil</li>
                     </ul>
-                    <h3 class="project_links project_slide" data-translate="admin">Administrateurs</h3>
+                    <h3 class="project_blocks project_slide" data-translate="admin">Administrateurs</h3>
                     <ul>
                         <li class="project_slide_reverse" data-translate="valid_inscript">Validation des inscriptions
                         </li>
@@ -449,7 +449,7 @@
                     </figure>
                 </div>
                 <div class="project_details">
-                    <h3 class="project_links project_slide" data-translate="used_languages">Langages utilisés</h3>
+                    <h3 class="project_blocks project_slide" data-translate="used_languages">Langages utilisés</h3>
                     <p class="project_slide_reverse">JS</p>
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 60%;"></div>
@@ -466,7 +466,7 @@
                     <div class="progress-bar project_slide">
                         <div class="progress" style="width: 10%;"></div>
                     </div>
-                    <h3 class="project_links project_slide" data-translate="info">Informations</h3>
+                    <h3 class="project_blocks project_slide" data-translate="info">Informations</h3>
                     <ul>
                         <strong>
                             <li class="project_slide_reverse" data-translate="android_app">Application Android</li>
@@ -503,32 +503,35 @@
                 <div class="form_double_input">
                     <div class="form_double_input_block">
                         <label data-translate="form_input_name" for="name">Nom</label>
-                        <input class="double_input" name="name" type="text" />
+                        <input class="double_input" id="name" name="name" type="text" placeholder="Entrez votre nom" />
                     </div>
                     <div class="form_double_input_block">
                         <label data-translate="form_input_firstname" for="firstname">Prénom</label>
-                        <input class="double_input" name="firstname" type="text" />
+                        <input class="double_input" id="firstname" name="firstname" type="text"
+                            placeholder="Entrez votre prénom" />
                     </div>
                 </div>
                 <div class="form_double_input">
                     <div class="form_double_input_block">
                         <label for="mail">Email *</label>
-                        <input name="mail" required="" type="mail" />
+                        <input id="mail" name="mail" type="email" placeholder="exemple@domaine.com" required />
                     </div>
                     <div class="form_double_input_block">
                         <label data-translate="form_input_tel" for="tel">Téléphone</label>
-                        <input name="tel" type="tel" />
+                        <input id="tel" name="tel" type="tel" placeholder="0123456789" pattern="[0-9]{10}" />
                     </div>
                 </div>
                 <div class="form_temp">
                     <label data-translate="form_input_object" for="object">Objet</label>
-                    <input name="object" type="text" />
+                    <input id="object" name="object" type="text" placeholder="Objet du message" />
                     <label for="message">Message *</label>
-                    <textarea name="message" required=""></textarea>
+                    <textarea id="message" name="message" placeholder="Votre message ici..." required></textarea>
                 </div>
                 <p>Champs obligatoires *</p>
-                <button data-translate="form_send_button">Envoyer</button>
+                <button type="submit" data-translate="form_send_button">Envoyer</button>
             </form>
+
+
             <h1 data-translate="contact_others" id="titremin">Ou contactez-moi par :</h1>
             <div class="contact_others">
                 <a class="" href="tel:0650555911"><button class="button_contact">Tel:<br />06 50 55 59 11</button></a>
